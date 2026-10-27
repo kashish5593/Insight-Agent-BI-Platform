@@ -1,0 +1,21 @@
+ProductID,ProductName,Category,BasePrice,CostPrice,StandardMarginPercent
+PRD-101,Enterprise Cloud Compute Node (64 vCPU),Cloud Infrastructure,1250.0,520.0,58.4
+PRD-102,High-Throughput NVMe Storage (10TB),Cloud Infrastructure,680.0,240.0,64.71
+PRD-103,Managed Kubernetes Cluster Control Plane,Cloud Infrastructure,890.0,310.0,65.17
+PRD-104,Dedicated VPC Peering Gateway,Cloud Infrastructure,450.0,120.0,73.33
+PRD-201,InsightAgent Autonomous Intelligence Seat,AI & Analytics,480.0,110.0,77.08
+PRD-202,Enterprise LLM Inference Pipeline (Tier 1),AI & Analytics,1850.0,680.0,63.24
+PRD-203,Real-Time Data Streaming Orchestrator,AI & Analytics,950.0,340.0,64.21
+PRD-204,Predictive Analytics Automated SDK,AI & Analytics,720.0,210.0,70.83
+PRD-301,Zero-Trust Endpoint Protection Suite,Cybersecurity,350.0,95.0,72.86
+PRD-302,NextGen Cloud Web Application Firewall,Cybersecurity,1150.0,380.0,66.96
+PRD-303,Automated Threat Hunting & SIEM License,Cybersecurity,1450.0,510.0,64.83
+PRD-304,Identity & Access Governance Hub,Cybersecurity,620.0,180.0,70.97
+PRD-401,Rackmount Deep Learning Server Node,Enterprise Hardware,4800.0,2900.0,39.58
+PRD-402,Enterprise 100GbE Managed Switch,Enterprise Hardware,2200.0,1100.0,50.0
+PRD-403,Edge AI Micro-Server Gateway,Enterprise Hardware,1650.0,850.0,48.48
+PRD-404,Dual Redundant Enterprise Power Unit,Enterprise Hardware,520.0,210.0,59.62
+PRD-501,24/7 Mission-Critical SLA Support,Consulting & Support,2500.0,950.0,62.0
+PRD-502,Cloud Architecture Migration Advisory,Consulting & Support,3800.0,1400.0,63.16
+PRD-503,Security Audit & Pen-Testing Sprint,Consulting & Support,4200.0,1600.0,61.9
+PRD-504,Executive AI Transformation Workshop,Consulting & Support,5000.0,1800.0,64.0
