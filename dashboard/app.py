@@ -113,7 +113,11 @@ def load_data_from_db():
             JOIN dim_customer c ON t.CustomerID = c.CustomerID
             JOIN dim_channel ch ON t.ChannelID = ch.ChannelID;
         """, conn)
-        txns["TransactionDate"] = pd.to_datetime(txns["TransactionDate"])
+        txns["TransactionDate"] = pd.to_datetime(
+    txns["TransactionDate"],
+    format="mixed",
+    errors="coerce"
+)
         
         customers = pd.read_sql_query("SELECT * FROM dim_customer;", conn)
         products = pd.read_sql_query("SELECT * FROM dim_product;", conn)
