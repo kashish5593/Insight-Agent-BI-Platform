@@ -1,0 +1,189 @@
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: insightagent
+
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: insightagent-data
+  namespace: insightagent
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: warehouse-init
+  namespace: insightagent
+spec:
+  backoffLimit: 2
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: initialize-warehouse
+          image: ghcr.io/kashish5593/insight-agent-bi-platform:latest
+          imagePullPolicy: IfNotPresent
+          command:
+            - /bin/sh
+            - -c
+          args:
+            - |
+              if [ ! -f /data/warehouse.db ]; then
+                echo "Copying seed database to persistent storage..."
+                cp /app/data/warehouse.db /data/warehouse.db
+              else
+                echo "Existing database found. Keeping existing data."
+              fi
+          volumeMounts:
+            - name: warehouse-storage
+              mountPath: /data
+      volumes:
+        - name: warehouse-storage
+          persistentVolumeClaim:
+            claimName: insightagent-data
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insightagent-api
+  namespace: insightagent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: insightagent-api
+  template:
+    metadata:
+      labels:
+        app: insightagent-api
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/kashish5593/insight-agent-bi-platform:latest
+          imagePullPolicy: IfNotPresent
+          command:
+            - uvicorn
+          args:
+            - src.api.main:app
+            - --host
+            - 0.0.0.0
+            - --port
+            - "8000"
+          ports:
+            - containerPort: 8000
+          env:
+            - name: DATABASE_PATH
+              value: data/warehouse.db
+          volumeMounts:
+            - name: warehouse-storage
+              mountPath: /app/data
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8000
+            initialDelaySeconds: 30
+            periodSeconds: 20
+      volumes:
+        - name: warehouse-storage
+          persistentVolumeClaim:
+            claimName: insightagent-data
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: insightagent-api
+  namespace: insightagent
+spec:
+  type: ClusterIP
+  selector:
+    app: insightagent-api
+  ports:
+    - name: http
+      port: 8000
+      targetPort: 8000
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: insightagent-dashboard
+  namespace: insightagent
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: insightagent-dashboard
+  template:
+    metadata:
+      labels:
+        app: insightagent-dashboard
+    spec:
+      containers:
+        - name: dashboard
+          image: ghcr.io/kashish5593/insight-agent-bi-platform:latest
+          imagePullPolicy: IfNotPresent
+          command:
+            - streamlit
+          args:
+            - run
+            - dashboard/app.py
+            - --server.address=0.0.0.0
+            - --server.port=8501
+            - --server.headless=true
+          ports:
+            - containerPort: 8501
+          env:
+            - name: DATABASE_PATH
+              value: data/warehouse.db
+          volumeMounts:
+            - name: warehouse-storage
+              mountPath: /app/data
+          readinessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: 8501
+            initialDelaySeconds: 15
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /_stcore/health
+              port: 8501
+            initialDelaySeconds: 30
+            periodSeconds: 20
+      volumes:
+        - name: warehouse-storage
+          persistentVolumeClaim:
+            claimName: insightagent-data
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: insightagent-dashboard
+  namespace: insightagent
+spec:
+  type: NodePort
+  selector:
+    app: insightagent-dashboard
+  ports:
+    - name: http
+      port: 8501
+      targetPort: 8501
+      nodePort: 30085
