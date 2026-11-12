@@ -1,0 +1,96 @@
+services:
+  warehouse-init:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: insightagent:local
+    container_name: insightagent-warehouse-init
+    env_file:
+      - .env
+    environment:
+      DATABASE_PATH: data/warehouse.db
+    volumes:
+      - ./data:/app/data
+    command:
+      - sh
+      - -c
+      - |
+        if [ -f /app/data/warehouse.db ]; then
+          echo "SQLite warehouse already exists; keeping existing data."
+        else
+          echo "SQLite warehouse not found; running initial analytics pipeline."
+          python run_pipeline.py
+        fi
+    restart: "no"
+
+  api:
+    image: insightagent:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: insightagent-api
+    env_file:
+      - .env
+    environment:
+      DATABASE_PATH: data/warehouse.db
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8000:8000"
+    command:
+      - uvicorn
+      - src.api.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+    depends_on:
+      warehouse-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+
+  dashboard:
+    image: insightagent:local
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: insightagent-dashboard
+    env_file:
+      - .env
+    environment:
+      DATABASE_PATH: data/warehouse.db
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8501:8501"
+    command:
+      - streamlit
+      - run
+      - dashboard/app.py
+      - --server.address=0.0.0.0
+      - --server.port=8501
+      - --server.headless=true
+    depends_on:
+      warehouse-init:
+        condition: service_completed_successfully
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=3)"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

@@ -1,0 +1,5 @@
+RFM_Segment,CustomerCount,TotalRevenue,AvgRevenuePerCustomer,AvgFrequency,AvgRecencyDays,AvgMarginPercent,RevenueSharePct
+At-Risk & Hibernating Accounts,214,13953967.6,65205.46,9.82,146.39,60.09,10.99
+Champions & High-Value Strategic,212,69607335.8,328336.49,15.84,107.94,59.18,54.83
+Loyal Core Growth Accounts,146,19815125.6,135720.04,14.91,28.27,59.4,15.61
+Promising & Emerging Mid-Market,278,23566660.0,84772.16,15.69,115.58,59.86,18.56

@@ -1,0 +1,3 @@
+TransactionID,TransactionDate,CustomerID,CustomerName,CustomerSegment,Region,State,Channel,ProductID,ProductName,Category,UnitPrice,CostPrice,Quantity,DiscountRate,PaymentMethod,IsReturned
+TXN-DEMO-001,2026-10-22,CUST-0012,Omni Tech Enterprises LLC,Enterprise Tier 1,North America - West,California,Direct Sales Enterprise,PRD-201,InsightAgent Autonomous Intelligence Seat,AI & Analytics,480.0,110.0,15,0.1,Corporate Net-30,0
+TXN-DEMO-002,2026-10-22,CUST-0088,Vertex Systems Inc.,Strategic Mid-Market,North America - East,New York,Digital Cloud Portal,PRD-101,Enterprise Cloud Compute Node (64 vCPU),Cloud Infrastructure,1250.0,520.0,4,0.05,Wire Transfer,0

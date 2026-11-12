@@ -1,0 +1,191 @@
+// ==============================================================================
+// InsightAgent Power BI Desktop - Enterprise DAX Measure Library
+// Copy & paste these measures directly into Power BI Desktop Model View
+// ==============================================================================
+
+// ------------------------------------------------------------------------------
+// 1. BASE FINANCIAL & OPERATIONAL MEASURES
+// ------------------------------------------------------------------------------
+
+Total Gross Revenue = 
+SUM(fact_transactions[GrossRevenue])
+
+Total Discounts Given = 
+SUM(fact_transactions[DiscountAmount])
+
+Total Net Revenue = 
+SUM(fact_transactions[NetRevenue])
+
+Total Cost of Goods Sold = 
+SUM(fact_transactions[TotalCost])
+
+Total Operating Profit = 
+SUM(fact_transactions[Profit])
+
+Gross Profit Margin % = 
+DIVIDE([Total Operating Profit], [Total Net Revenue], 0)
+
+Total Transactions = 
+COUNTROWS(fact_transactions)
+
+Total Units Sold = 
+SUM(fact_transactions[Quantity])
+
+Average Order Value (AOV) = 
+DIVIDE([Total Net Revenue], [Total Transactions], 0)
+
+Average Units per Order = 
+DIVIDE([Total Units Sold], [Total Transactions], 0)
+
+Average Discount Rate % = 
+AVERAGE(fact_transactions[DiscountRate])
+
+Total Returned Orders = 
+CALCULATE(
+    COUNTROWS(fact_transactions),
+    fact_transactions[IsReturned] = 1
+)
+
+Return Rate % = 
+DIVIDE([Total Returned Orders], [Total Transactions], 0)
+
+
+// ------------------------------------------------------------------------------
+// 2. TIME-INTELLIGENCE & YOY GROWTH MEASURES
+// ------------------------------------------------------------------------------
+
+Revenue YTD = 
+TOTALYTD(
+    [Total Net Revenue],
+    dim_date[FullDate]
+)
+
+Revenue Prior Year (PY) = 
+CALCULATE(
+    [Total Net Revenue],
+    SAMEPERIODLASTYEAR(dim_date[FullDate])
+)
+
+YoY Revenue Growth ($) = 
+[Total Net Revenue] - [Revenue Prior Year (PY)]
+
+YoY Revenue Growth (%) = 
+DIVIDE(
+    [YoY Revenue Growth ($)],
+    [Revenue Prior Year (PY)],
+    0
+)
+
+Profit YTD = 
+TOTALYTD(
+    [Total Operating Profit],
+    dim_date[FullDate]
+)
+
+Revenue 30-Day Moving Average = 
+AVERAGEX(
+    DATESINPERIOD(
+        dim_date[FullDate],
+        LASTDATE(dim_date[FullDate]),
+        -30,
+        DAY
+    ),
+    [Total Net Revenue]
+)
+
+
+// ------------------------------------------------------------------------------
+// 3. CUSTOMER RFM & CHURN RISK ANALYTICS
+// ------------------------------------------------------------------------------
+
+Active Customers Count = 
+DISTINCTCOUNT(fact_transactions[CustomerID])
+
+Total Accounts In Portfolio = 
+COUNTROWS(dim_customer)
+
+Average Spend per Customer = 
+DIVIDE([Total Net Revenue], [Active Customers Count], 0)
+
+Avg Orders per Customer = 
+DIVIDE([Total Transactions], [Active Customers Count], 0)
+
+Champions Revenue = 
+CALCULATE(
+    [Total Net Revenue],
+    dim_customer[RFM_Segment] = "Champions & High-Value Strategic"
+)
+
+Champions Revenue Share % = 
+DIVIDE([Champions Revenue], [Total Net Revenue], 0)
+
+At-Risk Accounts Count = 
+CALCULATE(
+    COUNTROWS(dim_customer),
+    dim_customer[ChurnRisk] IN {"Critical High Risk", "Medium At-Risk"}
+)
+
+At-Risk Revenue Exposure = 
+CALCULATE(
+    SUM(dim_customer[Monetary]),
+    dim_customer[ChurnRisk] IN {"Critical High Risk", "Medium At-Risk"}
+)
+
+Customer Lifetime Value (LTV Estimated) = 
+[Average Order Value (AOV)] * [Avg Orders per Customer] * [Gross Profit Margin %]
+
+
+// ------------------------------------------------------------------------------
+// 4. ANOMALY DETECTION & MARGIN SLIPPAGE SAFEGUARDS
+// ------------------------------------------------------------------------------
+
+Total Anomalies Flagged = 
+CALCULATE(
+    COUNTROWS(fact_transactions),
+    fact_transactions[Anomaly_Flag] = 1
+)
+
+Anomaly Incidence Rate % = 
+DIVIDE([Total Anomalies Flagged], [Total Transactions], 0)
+
+Anomaly Revenue Exposure = 
+CALCULATE(
+    [Total Net Revenue],
+    fact_transactions[Anomaly_Flag] = 1
+)
+
+Anomaly Direct Loss / Margin Erosion = 
+CALCULATE(
+    ABS(SUM(fact_transactions[Profit])),
+    fact_transactions[Anomaly_Flag] = 1,
+    fact_transactions[Profit] < 0
+)
+
+Pricing Glitch Events = 
+CALCULATE(
+    COUNTROWS(fact_transactions),
+    fact_transactions[Detected_Anomaly_Type] = "Critical Pricing Glitch & Margin Erosion"
+)
+
+
+// ------------------------------------------------------------------------------
+// 5. PREDICTIVE REVENUE FORECASTING
+// ------------------------------------------------------------------------------
+
+Forecasted Revenue 30D = 
+SUM(fact_forecasts[ForecastedRevenue])
+
+Forecast Lower Bound 95% = 
+SUM(fact_forecasts[LowerBound])
+
+Forecast Upper Bound 95% = 
+SUM(fact_forecasts[UpperBound])
+
+Forecast vs Historical Run Rate % = 
+VAR Hist30 = 
+    CALCULATE(
+        [Total Net Revenue],
+        DATESINPERIOD(dim_date[FullDate], LASTDATE(fact_transactions[TransactionDate]), -30, DAY)
+    )
+RETURN
+    DIVIDE([Forecasted Revenue 30D] - Hist30, Hist30, 0)
