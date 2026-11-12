@@ -1,0 +1,851 @@
+CustomerID,CustomerName,CustomerSegment,Region,State,LastPurchaseDate,Frequency,Monetary,AvgOrderValue,AvgProfitMargin,ReturnCount,Recency,ReturnRate,Cluster,RFM_Segment,R_Score,F_Score,M_Score,RFM_Score,ChurnRisk
+CUST-0001,Quantum Tech LLC,Strategic Mid-Market,North America - West,Washington,2025-03-23,19,213005.0,11210.79,62.43,0,97,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0002,Synergy Labs Inc.,Government & Edu,APAC - Regional,Singapore,2025-04-01,13,46071.5,3543.96,66.92,0,88,0.0,1,Promising & Emerging Mid-Market,3,2,1,321,Medium At-Risk
+CUST-0003,Solstice Health Inc.,Emerging SMB,North America - East,New York,2025-04-23,13,34523.0,2655.62,59.84,0,66,0.0,1,Promising & Emerging Mid-Market,4,2,1,421,Stable Active
+CUST-0004,Vanguard Enterprises Inc.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-04-26,17,166265.5,9780.32,59.51,0,63,0.0,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0005,Stratum Health Corp.,Enterprise Tier 1,North America - South,North Carolina,2025-05-23,20,554430.0,27721.5,58.3,3,36,0.15,0,Champions & High-Value Strategic,5,5,5,555,Low Risk (Champion)
+CUST-0006,Apex Digital Corp.,Enterprise Tier 1,APAC - Regional,India,2025-05-01,14,335519.5,23965.68,56.78,0,58,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0007,Acro Logistics Corp.,Enterprise Tier 1,North America - West,Oregon,2025-04-20,14,225022.5,16073.04,59.98,1,69,0.0714,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0008,Quantum Systems Holdings,Emerging SMB,North America - East,Virginia,2025-02-03,18,87855.5,4880.86,58.22,0,145,0.0,1,Promising & Emerging Mid-Market,2,5,3,253,Medium At-Risk
+CUST-0009,Starlight Analytics LLC,Emerging SMB,North America - East,Pennsylvania,2025-02-17,9,19002.5,2111.39,61.57,0,131,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0010,Stratum Systems Holdings,Emerging SMB,North America - East,Florida,2025-04-22,11,73322.0,6665.64,60.53,0,67,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0011,Pinnacle Networks LLC,Enterprise Tier 1,EMEA - Western Europe,Germany,2024-12-01,15,181215.0,12081.0,63.34,0,209,0.0,0,Champions & High-Value Strategic,1,3,4,134,Medium At-Risk
+CUST-0012,Vertex Tech Corp.,Government & Edu,North America - Midwest,Illinois,2024-11-03,14,59530.0,4252.14,58.89,1,237,0.0714,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0013,Aegis Systems Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-04-29,12,32529.5,2710.79,61.82,0,60,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0014,Starlight Solutions LLC,Strategic Mid-Market,North America - Midwest,Ohio,2025-02-23,18,100007.0,5555.94,60.9,0,125,0.0,1,Promising & Emerging Mid-Market,2,5,3,253,Medium At-Risk
+CUST-0015,Horizon Labs Inc.,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-03-31,15,203661.5,13577.43,58.93,1,89,0.0667,0,Champions & High-Value Strategic,3,3,4,334,Medium At-Risk
+CUST-0016,Stratum Labs Corp.,Enterprise Tier 1,North America - West,Nevada,2025-04-26,13,317917.5,24455.19,55.21,0,63,0.0,0,Champions & High-Value Strategic,4,2,5,425,Low Risk (Champion)
+CUST-0017,Core Logistics Corp.,Strategic Mid-Market,APAC - Regional,Australia,2025-03-10,17,123792.5,7281.91,63.36,0,110,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0018,Nexus Enterprises Inc.,Strategic Mid-Market,North America - Midwest,Minnesota,2025-04-22,14,119584.5,8541.75,58.23,0,67,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0019,Horizon Systems Corp.,Strategic Mid-Market,EMEA - Western Europe,France,2025-02-23,15,200619.0,13374.6,64.11,1,125,0.0667,0,Champions & High-Value Strategic,2,3,4,234,Medium At-Risk
+CUST-0020,Vanguard Networks Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-01-18,14,68638.0,4902.71,65.09,0,161,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0021,Synergy Logistics Corp.,Emerging SMB,North America - West,Arizona,2025-05-29,17,72065.5,4239.15,61.7,0,30,0.0,3,Loyal Core Growth Accounts,5,4,2,542,Stable Active
+CUST-0022,Stratum Logistics Holdings,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2025-04-16,16,278511.0,17406.94,61.29,0,73,0.0,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0023,Starlight Enterprises Corp.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-05-22,8,57313.0,7164.12,63.42,1,37,0.125,2,At-Risk & Hibernating Accounts,5,1,2,512,Stable Active
+CUST-0024,Vertex Digital Inc.,Strategic Mid-Market,North America - East,Massachusetts,2025-01-06,16,200169.5,12510.59,60.76,0,173,0.0,0,Champions & High-Value Strategic,1,4,4,144,Medium At-Risk
+CUST-0025,Omni Digital Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-04-06,16,167369.5,10460.59,57.02,0,83,0.0,0,Champions & High-Value Strategic,3,4,4,344,Medium At-Risk
+CUST-0026,Core Health Holdings,Emerging SMB,EMEA - Western Europe,France,2025-04-20,15,67517.0,4501.13,57.42,0,69,0.0,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0027,Stratum Tech Inc.,Enterprise Tier 1,APAC - Regional,Australia,2025-05-04,24,546863.5,22785.98,61.5,0,55,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0028,Acro Systems LLC,Strategic Mid-Market,North America - South,Georgia,2024-11-20,9,96868.5,10763.17,58.74,0,220,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0029,Cyber Tech LLC,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-03-10,9,68957.0,7661.89,57.18,1,110,0.1111,2,At-Risk & Hibernating Accounts,3,1,2,312,Medium At-Risk
+CUST-0030,Titan Systems LLC,Enterprise Tier 1,APAC - Regional,Japan,2025-01-09,9,103448.5,11494.28,58.28,0,170,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0031,Synergy Financial Corp.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-03-04,22,75736.5,3442.57,58.12,1,116,0.0455,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0032,Apex Analytics LLC,Enterprise Tier 1,North America - South,Texas,2025-03-15,11,366968.0,33360.73,65.47,0,105,0.0,0,Champions & High-Value Strategic,3,1,5,315,Medium At-Risk
+CUST-0033,Quantum Financial LLC,Enterprise Tier 1,North America - West,California,2025-06-21,15,270271.0,18018.07,57.22,0,7,0.0,3,Loyal Core Growth Accounts,5,3,5,535,Low Risk (Champion)
+CUST-0034,Aegis Analytics Inc.,Government & Edu,North America - East,Pennsylvania,2025-04-12,17,66329.5,3901.74,60.8,1,77,0.0588,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0035,Vertex Digital Corp.,Government & Edu,North America - West,Nevada,2025-01-12,8,19525.5,2440.69,64.68,0,167,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0036,Stratum Solutions LLC,Emerging SMB,EMEA - Western Europe,Switzerland,2024-09-10,6,13560.0,2260.0,65.83,0,291,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0037,Global Enterprises Corp.,Strategic Mid-Market,APAC - Regional,Australia,2024-12-29,12,172251.5,14354.29,59.52,0,181,0.0,0,Champions & High-Value Strategic,1,2,4,124,Critical High Risk
+CUST-0038,Core Networks LLC,Enterprise Tier 1,North America - South,Tennessee,2025-04-12,22,401482.0,18249.18,50.82,1,77,0.0455,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0039,Quantum Enterprises Corp.,Emerging SMB,North America - East,Virginia,2025-03-15,19,55036.0,2896.63,58.11,0,105,0.0,1,Promising & Emerging Mid-Market,3,5,2,352,Medium At-Risk
+CUST-0040,Apex Analytics Corp.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-02-12,14,134380.0,9598.57,57.0,0,136,0.0,1,Promising & Emerging Mid-Market,2,3,4,234,Medium At-Risk
+CUST-0041,Apex Systems Inc.,Enterprise Tier 1,North America - West,California,2025-04-17,17,323016.5,19000.97,64.52,1,72,0.0588,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0042,Nexus Financial Inc.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-04-10,10,29062.5,2906.25,63.05,0,79,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0043,Horizon Networks Holdings,Enterprise Tier 1,North America - West,Arizona,2025-04-16,15,156734.5,10448.97,65.44,0,73,0.0,0,Champions & High-Value Strategic,4,3,4,434,Low Risk (Champion)
+CUST-0044,Synergy Labs Holdings,Government & Edu,North America - West,Nevada,2025-01-06,19,102292.5,5383.82,63.28,0,173,0.0,1,Promising & Emerging Mid-Market,1,5,3,153,Medium At-Risk
+CUST-0045,Global Enterprises Inc.,Strategic Mid-Market,North America - East,Pennsylvania,2025-03-30,17,142282.0,8369.53,65.46,0,90,0.0,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0046,Starlight Health Holdings,Emerging SMB,North America - South,Texas,2024-11-27,16,50729.5,3170.59,60.06,2,213,0.125,1,Promising & Emerging Mid-Market,1,4,1,141,Medium At-Risk
+CUST-0047,Quantum Tech Holdings,Strategic Mid-Market,APAC - Regional,Australia,2024-12-16,18,140532.5,7807.36,58.24,0,194,0.0,1,Promising & Emerging Mid-Market,1,5,4,154,Medium At-Risk
+CUST-0048,Quantum Enterprises Corp.,Strategic Mid-Market,North America - West,Arizona,2025-04-04,15,128864.0,8590.93,63.73,0,85,0.0,1,Promising & Emerging Mid-Market,3,3,4,334,Medium At-Risk
+CUST-0049,Cyber Solutions Holdings,Strategic Mid-Market,North America - West,Oregon,2025-04-25,10,73927.5,7392.75,63.25,0,64,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0050,Cyber Enterprises Inc.,Enterprise Tier 1,North America - South,Texas,2025-05-27,13,306847.0,23603.62,61.19,1,32,0.0769,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0051,Nexus Networks Inc.,Government & Edu,North America - East,Massachusetts,2025-05-14,9,47719.5,5302.17,58.51,1,45,0.1111,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0052,Omni Health Holdings,Emerging SMB,North America - South,Georgia,2025-04-18,9,23789.0,2643.22,62.69,0,71,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0053,Core Tech Corp.,Government & Edu,North America - South,Texas,2025-04-18,15,50951.5,3396.77,61.21,2,71,0.1333,1,Promising & Emerging Mid-Market,4,3,1,431,Stable Active
+CUST-0054,Core Logistics Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-01-28,12,34719.0,2893.25,63.75,0,151,0.0,2,At-Risk & Hibernating Accounts,2,2,1,221,Critical High Risk
+CUST-0055,Stratum Networks Holdings,Strategic Mid-Market,North America - West,Washington,2025-05-04,17,179175.5,10539.74,61.18,1,55,0.0588,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0056,Pinnacle Enterprises Inc.,Government & Edu,EMEA - Western Europe,Switzerland,2025-04-06,14,36767.5,2626.25,63.57,0,83,0.0,1,Promising & Emerging Mid-Market,3,3,1,331,Medium At-Risk
+CUST-0057,Nexus Labs LLC,Enterprise Tier 1,North America - East,New York,2025-05-16,11,155402.0,14127.45,61.78,0,43,0.0,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0058,Solstice Aerospace Corp.,Enterprise Tier 1,North America - East,Florida,2025-06-18,13,348467.5,26805.19,60.63,1,10,0.0769,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0059,Vertex Solutions Inc.,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2025-02-13,13,228829.0,17602.23,59.53,0,135,0.0,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0060,Aegis Health Inc.,Strategic Mid-Market,EMEA - Western Europe,Germany,2024-10-20,7,30602.5,4371.79,61.22,0,251,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0061,Solstice Analytics Inc.,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-03-20,17,133435.0,7849.12,60.81,1,100,0.0588,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0062,Global Networks LLC,Strategic Mid-Market,North America - Midwest,Ohio,2025-02-11,16,109376.5,6836.03,53.62,1,137,0.0625,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0063,Acro Enterprises LLC,Emerging SMB,North America - South,Georgia,2025-02-20,13,71306.4,5485.11,48.11,0,128,0.0,1,Promising & Emerging Mid-Market,2,2,2,222,Critical High Risk
+CUST-0064,Pinnacle Aerospace LLC,Strategic Mid-Market,North America - East,New York,2025-01-31,9,92165.0,10240.56,54.6,0,148,0.0,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0065,Cyber Analytics Inc.,Strategic Mid-Market,North America - East,Florida,2025-04-16,17,127160.0,7480.0,61.52,1,73,0.0588,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0066,Vanguard Energy LLC,Strategic Mid-Market,North America - West,Oregon,2025-01-19,18,170942.0,9496.78,61.74,0,160,0.0,0,Champions & High-Value Strategic,1,5,4,154,Medium At-Risk
+CUST-0067,Vertex Enterprises LLC,Enterprise Tier 1,North America - Midwest,Ohio,2025-04-20,11,370731.0,33702.82,62.25,1,69,0.0909,0,Champions & High-Value Strategic,4,1,5,415,Low Risk (Champion)
+CUST-0068,Cyber Energy LLC,Emerging SMB,EMEA - Western Europe,Switzerland,2025-05-13,21,130583.0,6218.24,58.65,0,46,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0069,Apex Networks LLC,Enterprise Tier 1,APAC - Regional,Singapore,2025-04-27,18,205877.0,11437.61,62.25,1,62,0.0556,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0070,Synergy Logistics Inc.,Government & Edu,North America - East,Florida,2025-04-30,16,52444.5,3277.78,57.47,0,59,0.0,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0071,Synergy Logistics LLC,Emerging SMB,EMEA - Western Europe,Germany,2024-02-20,5,19125.0,3825.0,57.65,1,494,0.2,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0072,Acro Enterprises LLC,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2024-11-18,9,142145.0,15793.89,62.28,0,222,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0073,Horizon Tech Inc.,Enterprise Tier 1,APAC - Regional,India,2025-04-05,11,249521.0,22683.73,60.38,0,84,0.0,0,Champions & High-Value Strategic,3,1,5,315,Medium At-Risk
+CUST-0074,Horizon Tech Inc.,Emerging SMB,North America - Midwest,Ohio,2025-05-11,10,13701.5,1370.15,63.76,0,48,0.0,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0075,Horizon Solutions Holdings,Emerging SMB,EMEA - Western Europe,Netherlands,2025-05-18,14,37268.5,2662.04,63.06,0,41,0.0,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0076,Stratum Tech Inc.,Emerging SMB,North America - East,Massachusetts,2025-05-06,8,12737.5,1592.19,62.35,0,53,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0077,Stratum Tech LLC,Emerging SMB,EMEA - Western Europe,Switzerland,2025-02-23,16,54089.5,3380.59,59.87,0,125,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0078,Synergy Health Corp.,Enterprise Tier 1,North America - East,Virginia,2025-04-25,18,440677.0,24482.06,62.76,0,64,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0079,Starlight Digital Inc.,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-09,12,77776.0,6481.33,62.04,0,80,0.0,1,Promising & Emerging Mid-Market,3,2,2,322,Medium At-Risk
+CUST-0080,Aegis Networks Inc.,Enterprise Tier 1,North America - Midwest,Indiana,2025-04-25,14,359591.0,25685.07,64.74,0,64,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0081,Global Analytics Corp.,Emerging SMB,North America - West,Washington,2024-10-29,13,33015.5,2539.65,64.27,0,242,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0082,Omni Health Inc.,Emerging SMB,North America - West,Oregon,2025-04-16,12,36614.5,3051.21,62.52,0,73,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0083,Global Digital Corp.,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-14,10,48987.5,4898.75,57.47,1,75,0.1,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0084,Quantum Health Inc.,Enterprise Tier 1,North America - South,Georgia,2025-03-25,10,295731.5,29573.15,59.37,1,95,0.1,0,Champions & High-Value Strategic,3,1,5,315,Medium At-Risk
+CUST-0085,Vanguard Aerospace LLC,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-14,22,190481.5,8658.25,57.01,0,75,0.0,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0086,Aegis Tech Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-02-18,17,97555.0,5738.53,57.94,0,130,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0087,Horizon Systems LLC,Emerging SMB,North America - Midwest,Indiana,2025-04-23,12,22170.5,1847.54,63.05,0,66,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0088,Core Networks LLC,Emerging SMB,North America - East,New York,2025-04-21,19,76172.0,4009.05,59.33,0,68,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0089,Horizon Solutions LLC,Emerging SMB,North America - East,New York,2025-01-24,15,60369.0,4024.6,64.18,0,155,0.0,1,Promising & Emerging Mid-Market,2,3,2,232,Medium At-Risk
+CUST-0090,Infiniti Health LLC,Strategic Mid-Market,APAC - Regional,Australia,2025-06-27,12,88711.0,7392.58,66.85,1,1,0.0833,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0091,Global Analytics Inc.,Enterprise Tier 1,North America - South,Georgia,2025-03-24,15,342683.5,22845.57,63.65,1,96,0.0667,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0092,Horizon Tech Holdings,Emerging SMB,North America - East,Florida,2025-04-22,10,23263.5,2326.35,59.36,0,67,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0093,Stratum Networks Corp.,Emerging SMB,North America - Midwest,Minnesota,2025-02-17,17,41722.5,2454.26,56.36,1,131,0.0588,1,Promising & Emerging Mid-Market,2,4,1,241,Medium At-Risk
+CUST-0094,Vertex Networks LLC,Strategic Mid-Market,EMEA - Western Europe,France,2025-05-04,14,121250.5,8660.75,56.69,0,55,0.0,3,Loyal Core Growth Accounts,4,3,3,433,Stable Active
+CUST-0095,Quantum Labs LLC,Emerging SMB,EMEA - Western Europe,France,2025-05-26,15,52057.0,3470.47,57.32,0,33,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0096,Global Financial Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-02-21,22,207722.5,9441.93,59.57,2,127,0.0909,0,Champions & High-Value Strategic,2,5,4,254,Medium At-Risk
+CUST-0097,Stratum Solutions Corp.,Strategic Mid-Market,North America - South,Tennessee,2025-03-16,12,98180.5,8181.71,56.95,0,104,0.0,1,Promising & Emerging Mid-Market,3,2,3,323,Medium At-Risk
+CUST-0098,Omni Analytics LLC,Strategic Mid-Market,North America - South,Texas,2025-06-03,9,110996.0,12332.89,61.87,1,25,0.1111,3,Loyal Core Growth Accounts,5,1,3,513,Stable Active
+CUST-0099,Pinnacle Logistics Corp.,Enterprise Tier 1,North America - South,North Carolina,2024-10-10,10,145671.5,14567.15,60.92,0,261,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0100,Cyber Aerospace Holdings,Enterprise Tier 1,APAC - Regional,Japan,2025-01-23,15,231381.0,15425.4,62.97,1,156,0.0667,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0101,Titan Aerospace Corp.,Enterprise Tier 1,APAC - Regional,Singapore,2025-03-31,6,146182.5,24363.75,56.74,0,89,0.0,2,At-Risk & Hibernating Accounts,3,1,4,314,Medium At-Risk
+CUST-0102,Pinnacle Energy LLC,Emerging SMB,North America - East,Massachusetts,2025-03-10,16,70146.0,4384.12,56.81,0,110,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0103,Pinnacle Enterprises Corp.,Strategic Mid-Market,North America - West,California,2025-03-30,25,179500.5,7180.02,58.78,0,90,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0104,Nexus Enterprises Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-02-13,12,92987.5,7748.96,58.44,0,135,0.0,1,Promising & Emerging Mid-Market,2,2,3,223,Critical High Risk
+CUST-0105,Cyber Health Corp.,Government & Edu,APAC - Regional,India,2025-01-10,13,313260.5,24096.96,57.32,0,169,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0106,Pulse Health Corp.,Strategic Mid-Market,North America - West,California,2025-03-20,16,229126.0,14320.38,59.29,1,100,0.0625,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0107,Quantum Digital Holdings,Strategic Mid-Market,North America - West,Washington,2025-02-26,18,214216.5,11900.92,65.25,0,122,0.0,0,Champions & High-Value Strategic,2,5,4,254,Medium At-Risk
+CUST-0108,Titan Aerospace Inc.,Emerging SMB,EMEA - Western Europe,Germany,2025-04-14,15,96912.0,6460.8,62.3,0,75,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0109,Quantum Aerospace Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-02-07,9,78405.0,8711.67,57.81,0,141,0.0,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0110,Cyber Analytics Holdings,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2024-12-23,16,289587.0,18099.19,62.09,1,187,0.0625,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0111,Omni Labs Holdings,Strategic Mid-Market,North America - South,North Carolina,2025-03-16,16,136374.0,8523.38,57.47,1,104,0.0625,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0112,Aegis Networks LLC,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2025-04-14,19,358578.5,18872.55,58.58,0,75,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0113,Aegis Logistics Holdings,Government & Edu,North America - East,Virginia,2025-05-10,11,28262.0,2569.27,60.76,0,49,0.0,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0114,Aegis Logistics LLC,Emerging SMB,North America - Midwest,Indiana,2025-06-03,15,25884.5,1725.63,47.34,1,25,0.0667,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0115,Vertex Solutions Corp.,Emerging SMB,North America - West,Nevada,2025-05-25,18,75011.5,4167.31,59.52,0,34,0.0,3,Loyal Core Growth Accounts,5,5,2,552,Stable Active
+CUST-0116,Synergy Labs Corp.,Emerging SMB,North America - East,Pennsylvania,2024-08-28,18,76295.0,4238.61,59.96,0,304,0.0,1,Promising & Emerging Mid-Market,1,5,2,152,Medium At-Risk
+CUST-0117,Global Financial Holdings,Emerging SMB,North America - South,Texas,2025-06-10,16,65436.0,4089.75,57.98,0,18,0.0,3,Loyal Core Growth Accounts,5,4,2,542,Stable Active
+CUST-0118,Vanguard Health Holdings,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2024-11-07,18,480233.5,26679.64,61.1,4,233,0.2222,0,Champions & High-Value Strategic,1,5,5,155,Medium At-Risk
+CUST-0119,Solstice Health Holdings,Emerging SMB,North America - East,Virginia,2025-04-22,15,60246.0,4016.4,61.09,0,67,0.0,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0120,Pinnacle Digital Holdings,Strategic Mid-Market,North America - South,Georgia,2025-01-22,11,103222.0,9383.82,56.93,0,157,0.0,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0121,Pulse Enterprises LLC,Emerging SMB,North America - South,Tennessee,2025-04-01,15,74967.0,4997.8,61.44,0,88,0.0,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0122,Apex Health LLC,Emerging SMB,APAC - Regional,India,2025-03-18,15,57096.5,3806.43,59.53,0,102,0.0,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0123,Omni Aerospace Corp.,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-05-30,14,83619.0,5972.79,51.62,0,29,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0124,Apex Health Inc.,Enterprise Tier 1,North America - East,Pennsylvania,2025-03-27,16,339044.0,21190.25,61.39,0,93,0.0,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0125,Synergy Aerospace Corp.,Strategic Mid-Market,North America - East,Virginia,2025-04-26,11,110491.0,10044.64,62.91,0,63,0.0,2,At-Risk & Hibernating Accounts,4,1,3,413,Stable Active
+CUST-0126,Core Financial Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-05-04,15,126259.5,8417.3,57.46,0,55,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0127,Acro Digital Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-03-16,7,18184.0,2597.71,59.74,2,104,0.2857,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0128,Horizon Systems Holdings,Emerging SMB,North America - East,Florida,2024-12-25,9,51664.5,5740.5,57.56,1,185,0.1111,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0129,Nexus Financial Corp.,Enterprise Tier 1,APAC - Regional,Singapore,2025-02-15,13,311958.0,23996.77,60.32,0,133,0.0,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0130,Nexus Digital Inc.,Strategic Mid-Market,North America - West,Washington,2025-05-27,16,160502.5,10031.41,61.22,0,32,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0131,Apex Analytics Corp.,Strategic Mid-Market,North America - West,Washington,2025-04-14,21,127538.0,6073.24,62.95,1,75,0.0476,1,Promising & Emerging Mid-Market,4,5,4,454,Low Risk (Champion)
+CUST-0132,Pulse Networks Inc.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-04-18,14,56338.5,4024.18,62.1,1,71,0.0714,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0133,Cyber Labs LLC,Enterprise Tier 1,North America - Midwest,Ohio,2025-05-20,10,208850.0,20885.0,62.32,0,39,0.0,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0134,Infiniti Analytics Inc.,Strategic Mid-Market,North America - West,Oregon,2025-02-02,14,124469.0,8890.64,61.29,0,146,0.0,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0135,Quantum Analytics Inc.,Government & Edu,North America - Midwest,Indiana,2024-12-03,11,58528.5,5320.77,65.13,0,207,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0136,Core Health Corp.,Strategic Mid-Market,North America - East,Florida,2025-05-20,11,52416.6,4765.15,10.3,0,39,0.0,3,Loyal Core Growth Accounts,5,1,2,512,Stable Active
+CUST-0137,Aegis Systems LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-04-11,13,86012.5,6616.35,62.78,1,78,0.0769,1,Promising & Emerging Mid-Market,3,2,3,323,Medium At-Risk
+CUST-0138,Solstice Digital Inc.,Emerging SMB,North America - Midwest,Indiana,2025-05-17,19,1206121.0,63480.05,58.09,0,42,0.0,0,Champions & High-Value Strategic,5,5,5,555,Low Risk (Champion)
+CUST-0139,Global Networks LLC,Strategic Mid-Market,North America - East,Florida,2025-04-29,16,81767.0,5110.44,61.6,0,60,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0140,Acro Tech Holdings,Government & Edu,North America - South,Texas,2025-05-25,16,77248.0,4828.0,59.98,0,34,0.0,3,Loyal Core Growth Accounts,5,4,2,542,Stable Active
+CUST-0141,Global Financial Holdings,Government & Edu,APAC - Regional,Japan,2025-03-08,16,73085.5,4567.84,61.24,0,112,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0142,Global Solutions LLC,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-06-01,15,130605.0,8707.0,58.3,2,27,0.1333,3,Loyal Core Growth Accounts,5,3,4,534,Low Risk (Champion)
+CUST-0143,Pulse Aerospace Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-03-14,19,115225.5,6064.5,62.4,0,106,0.0,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0144,Acro Enterprises Inc.,Strategic Mid-Market,North America - Midwest,Minnesota,2024-12-28,16,187880.5,11742.53,60.21,0,182,0.0,0,Champions & High-Value Strategic,1,4,4,144,Medium At-Risk
+CUST-0145,Aegis Digital Holdings,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-04-02,13,140554.0,10811.85,61.92,0,87,0.0,1,Promising & Emerging Mid-Market,3,2,4,324,Medium At-Risk
+CUST-0146,Core Financial Inc.,Enterprise Tier 1,North America - South,North Carolina,2024-12-20,18,456786.0,25377.0,61.15,1,190,0.0556,0,Champions & High-Value Strategic,1,5,5,155,Medium At-Risk
+CUST-0147,Omni Aerospace Corp.,Emerging SMB,North America - Midwest,Michigan,2024-11-29,12,64571.0,5380.92,59.35,0,211,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0148,Acro Logistics LLC,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-03-07,18,236167.5,13120.42,58.99,0,113,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0149,Titan Enterprises Inc.,Enterprise Tier 1,North America - West,Nevada,2024-10-31,11,81360.0,7396.36,63.44,0,240,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0150,Pulse Energy Corp.,Strategic Mid-Market,APAC - Regional,India,2025-02-01,9,35556.0,3950.67,64.8,1,147,0.1111,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0151,Pulse Aerospace Inc.,Government & Edu,North America - East,Virginia,2024-11-30,12,1281192.0,106766.0,61.75,0,210,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0152,Aegis Health Corp.,Strategic Mid-Market,North America - Midwest,Indiana,2025-04-12,11,62690.5,5699.14,57.87,0,77,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0153,Starlight Aerospace LLC,Enterprise Tier 1,North America - South,North Carolina,2025-04-06,19,237574.0,12503.89,53.49,0,83,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0154,Starlight Labs Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-06-04,21,173812.5,8276.79,64.73,0,24,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0155,Horizon Enterprises Inc.,Government & Edu,APAC - Regional,Japan,2025-02-26,11,48023.0,4365.73,62.01,0,122,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0156,Acro Systems Corp.,Strategic Mid-Market,North America - West,Washington,2025-05-28,15,96437.0,6429.13,58.88,0,31,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0157,Pulse Logistics LLC,Emerging SMB,North America - East,Massachusetts,2024-12-03,10,48607.5,4860.75,64.89,0,207,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0158,Pinnacle Enterprises LLC,Emerging SMB,North America - West,Oregon,2025-05-23,13,36565.0,2812.69,56.84,0,36,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0159,Apex Labs Corp.,Strategic Mid-Market,North America - Midwest,Illinois,2024-11-20,14,166510.0,11893.57,60.29,0,220,0.0,0,Champions & High-Value Strategic,1,3,4,134,Medium At-Risk
+CUST-0160,Nexus Energy LLC,Emerging SMB,APAC - Regional,Japan,2025-05-23,17,63416.0,3730.35,62.93,1,36,0.0588,3,Loyal Core Growth Accounts,5,4,2,542,Stable Active
+CUST-0161,Pulse Systems Inc.,Strategic Mid-Market,EMEA - Western Europe,France,2025-01-25,13,170931.0,13148.54,50.99,1,154,0.0769,0,Champions & High-Value Strategic,2,2,4,224,Critical High Risk
+CUST-0162,Pulse Aerospace Holdings,Emerging SMB,North America - Midwest,Ohio,2025-05-22,14,24532.5,1752.32,64.94,1,37,0.0714,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0163,Nexus Logistics Holdings,Emerging SMB,North America - East,New York,2024-12-20,13,47466.0,3651.23,59.18,0,190,0.0,1,Promising & Emerging Mid-Market,1,2,1,121,Critical High Risk
+CUST-0164,Core Aerospace Inc.,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-05-09,16,85491.0,5343.19,61.6,1,50,0.0625,1,Promising & Emerging Mid-Market,5,4,3,543,Stable Active
+CUST-0165,Synergy Solutions LLC,Enterprise Tier 1,North America - East,Massachusetts,2025-02-16,13,262376.5,20182.81,62.4,0,132,0.0,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0166,Quantum Energy Holdings,Emerging SMB,EMEA - Western Europe,Switzerland,2025-05-15,8,27775.0,3471.88,60.22,0,44,0.0,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0167,Infiniti Enterprises Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-06-07,11,128949.5,11722.68,54.78,0,21,0.0,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0168,Pinnacle Analytics Holdings,Enterprise Tier 1,North America - Midwest,Indiana,2025-03-01,15,269186.0,17945.73,54.63,0,119,0.0,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0169,Infiniti Tech Inc.,Enterprise Tier 1,North America - West,Washington,2024-11-07,9,57944.0,6438.22,63.79,0,233,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0170,Horizon Networks Inc.,Strategic Mid-Market,North America - West,Washington,2025-02-16,15,141834.5,9455.63,60.07,0,132,0.0,1,Promising & Emerging Mid-Market,2,3,4,234,Medium At-Risk
+CUST-0171,Omni Energy Inc.,Emerging SMB,North America - West,California,2025-05-15,12,50730.5,4227.54,60.11,0,44,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0172,Global Aerospace Holdings,Enterprise Tier 1,North America - Midwest,Illinois,2025-06-05,16,448737.0,28046.06,58.87,1,23,0.0625,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0173,Aegis Logistics LLC,Strategic Mid-Market,APAC - Regional,India,2025-03-12,16,145995.5,9124.72,59.32,1,108,0.0625,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0174,Vertex Networks Corp.,Strategic Mid-Market,North America - Midwest,Indiana,2025-04-28,14,92655.5,6618.25,63.44,2,61,0.1429,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0175,Vanguard Health Inc.,Emerging SMB,EMEA - Western Europe,Germany,2025-04-18,19,79543.5,4186.5,63.19,0,71,0.0,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0176,Synergy Logistics Corp.,Enterprise Tier 1,North America - East,New York,2025-04-29,11,439302.0,39936.55,56.75,1,60,0.0909,0,Champions & High-Value Strategic,4,1,5,415,Low Risk (Champion)
+CUST-0177,Omni Digital LLC,Emerging SMB,EMEA - Western Europe,Switzerland,2024-11-24,11,42229.0,3839.0,60.96,0,216,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0178,Pinnacle Aerospace Inc.,Strategic Mid-Market,North America - South,North Carolina,2024-09-19,13,70237.0,5402.85,63.05,0,282,0.0,1,Promising & Emerging Mid-Market,1,2,2,122,Critical High Risk
+CUST-0179,Core Logistics Holdings,Government & Edu,North America - South,Texas,2025-04-09,8,16483.0,2060.38,64.18,0,80,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0180,Infiniti Tech Holdings,Enterprise Tier 1,APAC - Regional,Australia,2025-05-29,16,183458.5,11466.16,62.49,0,30,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0181,Infiniti Logistics Inc.,Strategic Mid-Market,North America - East,Massachusetts,2025-03-03,12,61152.0,5096.0,62.72,0,117,0.0,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0182,Solstice Analytics Inc.,Enterprise Tier 1,APAC - Regional,Australia,2025-03-11,21,288391.5,13732.93,58.52,1,109,0.0476,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0183,Solstice Tech Corp.,Government & Edu,North America - South,Tennessee,2025-03-17,20,189455.5,9472.78,58.75,0,103,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0184,Horizon Solutions Holdings,Emerging SMB,APAC - Regional,India,2025-03-03,18,69874.0,3881.89,55.92,1,117,0.0556,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0185,Vertex Aerospace LLC,Strategic Mid-Market,North America - South,North Carolina,2025-04-15,13,82707.5,6362.12,55.61,2,74,0.1538,1,Promising & Emerging Mid-Market,4,2,3,423,Stable Active
+CUST-0186,Acro Networks Inc.,Emerging SMB,North America - West,Oregon,2025-02-24,14,40707.0,2907.64,60.6,0,124,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0187,Global Labs Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-02-19,13,44511.0,3423.92,58.83,2,129,0.1538,1,Promising & Emerging Mid-Market,2,2,1,221,Critical High Risk
+CUST-0188,Stratum Tech Holdings,Strategic Mid-Market,North America - East,Virginia,2025-02-04,11,57036.5,5185.14,57.66,1,144,0.0909,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0189,Horizon Financial Inc.,Strategic Mid-Market,North America - South,Texas,2025-04-04,11,105842.5,9622.05,58.03,0,85,0.0,2,At-Risk & Hibernating Accounts,3,1,3,313,Medium At-Risk
+CUST-0190,Stratum Aerospace Holdings,Strategic Mid-Market,North America - East,Massachusetts,2025-03-03,9,57761.0,6417.89,62.99,0,117,0.0,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0191,Titan Financial Holdings,Enterprise Tier 1,APAC - Regional,India,2025-03-09,18,322151.0,17897.28,62.92,0,111,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0192,Nexus Enterprises LLC,Emerging SMB,EMEA - Western Europe,Germany,2025-05-08,10,40067.0,4006.7,59.25,0,51,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0193,Pinnacle Aerospace Holdings,Government & Edu,North America - East,New York,2025-04-16,25,130432.5,5217.3,60.62,0,73,0.0,1,Promising & Emerging Mid-Market,4,5,4,454,Low Risk (Champion)
+CUST-0194,Infiniti Digital Corp.,Emerging SMB,APAC - Regional,Japan,2025-02-03,11,30591.5,2781.05,65.0,0,145,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0195,Pinnacle Energy Inc.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-01-09,14,108943.5,7781.68,61.4,1,170,0.0714,1,Promising & Emerging Mid-Market,1,3,3,133,Medium At-Risk
+CUST-0196,Vertex Enterprises Inc.,Strategic Mid-Market,North America - South,Texas,2025-03-06,10,47229.5,4722.95,63.91,0,114,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0197,Synergy Aerospace LLC,Emerging SMB,EMEA - Western Europe,France,2025-06-03,11,54136.0,4921.45,61.55,0,25,0.0,3,Loyal Core Growth Accounts,5,1,2,512,Stable Active
+CUST-0198,Global Aerospace Holdings,Emerging SMB,North America - West,Nevada,2025-04-11,16,57742.5,3608.91,55.86,1,78,0.0625,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0199,Stratum Solutions Holdings,Emerging SMB,North America - West,Arizona,2025-06-14,14,70961.0,5068.64,64.22,0,14,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0200,Titan Labs Corp.,Emerging SMB,North America - East,Virginia,2025-03-22,15,970441.5,64696.1,56.81,2,98,0.1333,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0201,Global Financial LLC,Emerging SMB,North America - East,Virginia,2025-04-22,18,102639.5,5702.19,59.22,0,67,0.0,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0202,Pinnacle Analytics Holdings,Enterprise Tier 1,North America - West,Nevada,2025-05-26,12,161705.0,13475.42,62.52,0,33,0.0,3,Loyal Core Growth Accounts,5,2,4,524,Low Risk (Champion)
+CUST-0203,Stratum Aerospace LLC,Enterprise Tier 1,North America - Midwest,Indiana,2024-10-28,9,182719.5,20302.17,63.19,0,243,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0204,Stratum Health Holdings,Emerging SMB,North America - Midwest,Ohio,2025-04-03,11,20859.0,1896.27,60.38,0,86,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0205,Aegis Analytics Holdings,Emerging SMB,North America - West,Nevada,2025-04-10,13,49920.5,3840.04,60.79,0,79,0.0,1,Promising & Emerging Mid-Market,3,2,1,321,Medium At-Risk
+CUST-0206,Nexus Financial Holdings,Enterprise Tier 1,APAC - Regional,India,2025-01-26,8,63425.5,7928.19,66.59,0,153,0.0,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0207,Core Networks Corp.,Enterprise Tier 1,North America - South,Texas,2024-11-05,15,214475.0,14298.33,61.36,0,235,0.0,0,Champions & High-Value Strategic,1,3,5,135,Medium At-Risk
+CUST-0208,Synergy Energy LLC,Emerging SMB,North America - East,Pennsylvania,2025-05-26,17,42446.5,2496.85,62.67,1,33,0.0588,3,Loyal Core Growth Accounts,5,4,1,541,Stable Active
+CUST-0209,Quantum Energy Holdings,Enterprise Tier 1,North America - East,Massachusetts,2024-12-22,16,405020.0,25313.75,63.48,0,188,0.0,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0210,Global Networks Corp.,Enterprise Tier 1,North America - East,Pennsylvania,2025-05-24,20,240568.5,12028.42,62.88,1,35,0.05,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0211,Horizon Financial Holdings,Strategic Mid-Market,APAC - Regional,Singapore,2025-04-10,15,116376.0,7758.4,58.07,0,79,0.0,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0212,Acro Networks Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-03-19,13,63899.0,4915.31,59.63,1,101,0.0769,1,Promising & Emerging Mid-Market,3,2,2,322,Medium At-Risk
+CUST-0213,Stratum Tech Inc.,Emerging SMB,North America - West,Oregon,2025-04-27,20,58161.0,2908.05,61.2,0,62,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0214,Aegis Labs Inc.,Strategic Mid-Market,North America - South,Texas,2025-02-03,14,160957.0,11496.93,61.13,1,145,0.0714,0,Champions & High-Value Strategic,2,3,4,234,Medium At-Risk
+CUST-0215,Quantum Aerospace Corp.,Emerging SMB,APAC - Regional,Australia,2025-02-14,20,63487.0,3174.35,62.98,1,134,0.05,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0216,Apex Tech LLC,Strategic Mid-Market,North America - East,Virginia,2025-03-21,20,196961.0,9848.05,59.18,0,99,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0217,Starlight Financial Holdings,Strategic Mid-Market,North America - West,Washington,2025-01-26,15,166499.5,11099.97,59.43,0,153,0.0,0,Champions & High-Value Strategic,2,3,4,234,Medium At-Risk
+CUST-0218,Titan Health Corp.,Emerging SMB,North America - West,Washington,2025-02-15,10,23714.0,2371.4,63.83,0,133,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0219,Vertex Analytics Holdings,Emerging SMB,EMEA - Western Europe,Germany,2025-04-17,10,42940.0,4294.0,61.45,1,72,0.1,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0220,Pulse Analytics Corp.,Emerging SMB,North America - West,Nevada,2025-02-08,10,22750.0,2275.0,62.75,0,140,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0221,Horizon Aerospace LLC,Emerging SMB,APAC - Regional,Singapore,2025-02-10,21,140684.0,6699.24,58.51,0,138,0.0,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0222,Cyber Logistics Corp.,Strategic Mid-Market,North America - East,Pennsylvania,2025-02-28,25,179820.5,7192.82,60.57,1,120,0.04,0,Champions & High-Value Strategic,2,5,4,254,Medium At-Risk
+CUST-0223,Starlight Analytics LLC,Enterprise Tier 1,APAC - Regional,India,2025-04-02,16,222184.0,13886.5,62.08,2,87,0.125,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0224,Horizon Aerospace LLC,Strategic Mid-Market,North America - West,Nevada,2025-01-24,17,96982.5,5704.85,62.33,0,155,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0225,Pulse Systems Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-06-06,18,162958.5,9053.25,58.38,0,22,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0226,Solstice Logistics LLC,Strategic Mid-Market,North America - East,Pennsylvania,2025-02-17,20,171446.5,8572.33,57.82,1,131,0.05,0,Champions & High-Value Strategic,2,5,4,254,Medium At-Risk
+CUST-0227,Horizon Tech Inc.,Government & Edu,EMEA - Western Europe,Netherlands,2025-06-09,10,28920.0,2892.0,62.18,1,19,0.1,3,Loyal Core Growth Accounts,5,1,1,511,Stable Active
+CUST-0228,Pinnacle Digital Corp.,Strategic Mid-Market,EMEA - Western Europe,France,2025-02-20,14,144490.0,10320.71,58.87,0,128,0.0,1,Promising & Emerging Mid-Market,2,3,4,234,Medium At-Risk
+CUST-0229,Aegis Networks Corp.,Emerging SMB,EMEA - Western Europe,France,2025-03-18,12,63275.0,5272.92,55.5,0,102,0.0,2,At-Risk & Hibernating Accounts,3,2,2,322,Medium At-Risk
+CUST-0230,Synergy Networks Inc.,Emerging SMB,APAC - Regional,Singapore,2024-12-25,10,50128.0,5012.8,63.27,0,185,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0231,Pinnacle Digital Holdings,Emerging SMB,North America - East,Florida,2024-12-02,13,36845.5,2834.27,59.75,1,208,0.0769,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0232,Starlight Labs Corp.,Strategic Mid-Market,North America - East,Virginia,2025-04-17,12,114656.0,9554.67,59.4,2,72,0.1667,1,Promising & Emerging Mid-Market,4,2,3,423,Stable Active
+CUST-0233,Acro Labs Holdings,Strategic Mid-Market,North America - West,Washington,2025-02-14,10,93772.5,9377.25,57.55,0,134,0.0,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0234,Synergy Digital LLC,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2024-10-05,10,82145.0,8214.5,62.98,1,266,0.1,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0235,Horizon Solutions LLC,Enterprise Tier 1,North America - South,North Carolina,2025-02-22,15,230479.5,15365.3,55.46,1,126,0.0667,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0236,Acro Digital Inc.,Emerging SMB,North America - South,Texas,2025-02-09,8,37351.5,4668.94,61.96,1,139,0.125,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0237,Synergy Digital Corp.,Strategic Mid-Market,APAC - Regional,India,2025-04-08,16,120605.0,7537.81,46.66,1,81,0.0625,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0238,Stratum Financial Inc.,Enterprise Tier 1,North America - South,Texas,2025-02-06,13,153496.5,11807.42,58.7,0,142,0.0,1,Promising & Emerging Mid-Market,2,2,4,224,Critical High Risk
+CUST-0239,Horizon Energy Inc.,Emerging SMB,North America - South,North Carolina,2025-02-13,15,42989.0,2865.93,61.67,0,135,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0240,Horizon Analytics Holdings,Enterprise Tier 1,APAC - Regional,Australia,2024-12-02,8,96101.0,12012.62,64.48,0,208,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0241,Quantum Networks Corp.,Government & Edu,North America - South,Texas,2025-02-27,15,44638.5,2975.9,58.8,0,121,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0242,Infiniti Energy LLC,Government & Edu,EMEA - Western Europe,Germany,2025-06-24,9,41420.0,4602.22,62.46,0,4,0.0,3,Loyal Core Growth Accounts,5,1,1,511,Stable Active
+CUST-0243,Vertex Networks Holdings,Government & Edu,APAC - Regional,Australia,2025-02-13,10,324871.5,32487.15,59.54,1,135,0.1,0,Champions & High-Value Strategic,2,1,5,215,Critical High Risk
+CUST-0244,Global Systems Corp.,Strategic Mid-Market,North America - East,New York,2024-11-28,15,92555.0,6170.33,59.99,0,212,0.0,1,Promising & Emerging Mid-Market,1,3,3,133,Medium At-Risk
+CUST-0245,Pinnacle Aerospace Inc.,Enterprise Tier 1,North America - East,Massachusetts,2025-05-11,18,205266.5,11403.69,60.88,1,48,0.0556,0,Champions & High-Value Strategic,5,5,4,554,Low Risk (Champion)
+CUST-0246,Stratum Solutions Holdings,Government & Edu,North America - South,North Carolina,2024-09-09,8,22797.0,2849.62,55.91,0,292,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0247,Stratum Health Corp.,Strategic Mid-Market,North America - South,Texas,2025-04-05,16,241113.0,15069.56,53.17,0,84,0.0,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0248,Pulse Analytics Holdings,Government & Edu,North America - Midwest,Illinois,2025-04-09,17,105320.0,6195.29,57.19,0,80,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0249,Starlight Enterprises Holdings,Government & Edu,North America - South,Georgia,2024-11-24,15,34393.5,2292.9,59.32,1,216,0.0667,1,Promising & Emerging Mid-Market,1,3,1,131,Medium At-Risk
+CUST-0250,Starlight Systems LLC,Emerging SMB,EMEA - Western Europe,France,2025-05-07,12,81584.0,6798.67,55.73,0,52,0.0,3,Loyal Core Growth Accounts,4,2,3,423,Stable Active
+CUST-0251,Nexus Health LLC,Strategic Mid-Market,North America - West,California,2025-02-01,16,100765.0,6297.81,57.72,2,147,0.125,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0252,Cyber Systems Corp.,Strategic Mid-Market,APAC - Regional,Singapore,2025-03-16,17,89657.0,5273.94,63.85,0,104,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0253,Nexus Digital LLC,Emerging SMB,North America - West,Washington,2025-03-10,15,48057.5,3203.83,60.13,0,110,0.0,1,Promising & Emerging Mid-Market,3,3,1,331,Medium At-Risk
+CUST-0254,Solstice Enterprises Inc.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-05-06,13,73227.0,5632.85,59.13,0,53,0.0,1,Promising & Emerging Mid-Market,4,2,2,422,Stable Active
+CUST-0255,Solstice Enterprises Corp.,Enterprise Tier 1,North America - Midwest,Ohio,2024-12-30,18,312535.0,17363.06,60.14,1,180,0.0556,0,Champions & High-Value Strategic,1,5,5,155,Medium At-Risk
+CUST-0256,Infiniti Tech LLC,Strategic Mid-Market,North America - West,Washington,2025-03-13,13,114148.5,8780.65,62.1,0,107,0.0,1,Promising & Emerging Mid-Market,3,2,3,323,Medium At-Risk
+CUST-0257,Stratum Logistics Corp.,Government & Edu,North America - East,New York,2025-01-28,9,42738.5,4748.72,61.51,0,151,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0258,Synergy Tech LLC,Emerging SMB,North America - West,Arizona,2025-05-24,25,91010.0,3640.4,61.79,1,35,0.04,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0259,Acro Tech Corp.,Strategic Mid-Market,North America - Midwest,Illinois,2024-09-15,6,82490.0,13748.33,63.88,0,286,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0260,Synergy Labs Holdings,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2025-06-17,16,218324.0,13645.25,49.07,1,11,0.0625,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0261,Vertex Aerospace Holdings,Emerging SMB,North America - Midwest,Indiana,2025-06-17,15,64709.0,4313.93,59.35,0,11,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0262,Solstice Systems Holdings,Government & Edu,EMEA - Western Europe,Germany,2025-04-16,21,72273.5,3441.6,60.76,0,73,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0263,Infiniti Tech LLC,Enterprise Tier 1,North America - South,Texas,2025-03-07,8,226865.0,28358.12,61.98,0,113,0.0,2,At-Risk & Hibernating Accounts,2,1,5,215,Critical High Risk
+CUST-0264,Nexus Aerospace Holdings,Strategic Mid-Market,North America - South,Texas,2025-04-19,14,97883.0,6991.64,61.37,1,70,0.0714,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0265,Pulse Labs Holdings,Emerging SMB,North America - East,New York,2025-04-13,12,71032.0,5919.33,53.49,0,76,0.0,1,Promising & Emerging Mid-Market,4,2,2,422,Stable Active
+CUST-0266,Acro Analytics Corp.,Emerging SMB,North America - East,Massachusetts,2025-04-22,14,66237.5,4731.25,55.2,1,67,0.0714,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0267,Horizon Analytics LLC,Emerging SMB,North America - South,North Carolina,2024-08-08,10,26113.0,2611.3,61.1,0,324,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0268,Cyber Energy Holdings,Emerging SMB,North America - East,New York,2025-04-24,20,102962.0,5148.1,60.9,1,65,0.05,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0269,Stratum Labs Corp.,Strategic Mid-Market,North America - South,Tennessee,2025-01-05,12,93852.0,7821.0,60.49,0,174,0.0,2,At-Risk & Hibernating Accounts,1,2,3,123,Critical High Risk
+CUST-0270,Aegis Health LLC,Strategic Mid-Market,North America - South,Tennessee,2025-05-22,13,52300.0,4023.08,58.15,0,37,0.0,3,Loyal Core Growth Accounts,5,2,2,522,Stable Active
+CUST-0271,Global Labs Inc.,Emerging SMB,North America - Midwest,Minnesota,2025-03-28,16,89371.0,5585.69,62.06,0,92,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0272,Acro Networks LLC,Emerging SMB,North America - Midwest,Ohio,2025-04-07,10,21489.5,2148.95,65.24,0,82,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0273,Pulse Systems Inc.,Emerging SMB,North America - East,New York,2025-03-02,9,58327.0,6480.78,58.79,0,118,0.0,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0274,Global Systems LLC,Government & Edu,North America - West,Arizona,2024-12-28,9,22730.5,2525.61,62.34,0,182,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0275,Nexus Analytics LLC,Strategic Mid-Market,APAC - Regional,Singapore,2024-10-21,14,129549.0,9253.5,60.78,0,250,0.0,1,Promising & Emerging Mid-Market,1,3,4,134,Medium At-Risk
+CUST-0276,Global Financial Holdings,Strategic Mid-Market,APAC - Regional,Singapore,2025-05-07,12,98656.0,8221.33,60.46,0,52,0.0,3,Loyal Core Growth Accounts,4,2,3,423,Stable Active
+CUST-0277,Pinnacle Analytics LLC,Emerging SMB,North America - Midwest,Illinois,2025-01-16,18,49545.0,2752.5,62.61,0,163,0.0,1,Promising & Emerging Mid-Market,1,5,1,151,Medium At-Risk
+CUST-0278,Solstice Energy Corp.,Emerging SMB,North America - West,Nevada,2025-01-16,16,50851.5,3178.22,64.05,1,163,0.0625,1,Promising & Emerging Mid-Market,1,4,1,141,Medium At-Risk
+CUST-0279,Aegis Systems LLC,Emerging SMB,EMEA - Western Europe,France,2025-03-17,12,17512.0,1459.33,59.8,0,103,0.0,2,At-Risk & Hibernating Accounts,3,2,1,321,Medium At-Risk
+CUST-0280,Quantum Digital LLC,Emerging SMB,EMEA - Western Europe,Germany,2025-03-13,10,55572.0,5557.2,63.55,0,107,0.0,2,At-Risk & Hibernating Accounts,3,1,2,312,Medium At-Risk
+CUST-0281,Global Energy Inc.,Emerging SMB,EMEA - Western Europe,France,2025-06-18,22,82142.0,3733.73,61.44,1,10,0.0455,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0282,Apex Solutions LLC,Strategic Mid-Market,APAC - Regional,Australia,2025-05-17,14,85431.0,6102.21,59.56,0,42,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0283,Acro Financial Inc.,Strategic Mid-Market,North America - West,Washington,2025-02-04,11,139425.0,12675.0,56.65,1,144,0.0909,2,At-Risk & Hibernating Accounts,2,1,4,214,Critical High Risk
+CUST-0284,Solstice Networks Holdings,Enterprise Tier 1,North America - East,Massachusetts,2025-01-14,15,127463.0,8497.53,59.2,0,165,0.0,1,Promising & Emerging Mid-Market,1,3,3,133,Medium At-Risk
+CUST-0285,Apex Systems Corp.,Strategic Mid-Market,North America - South,Tennessee,2024-12-28,13,63707.8,4900.6,56.92,0,182,0.0,1,Promising & Emerging Mid-Market,1,2,2,122,Critical High Risk
+CUST-0286,Cyber Financial Corp.,Enterprise Tier 1,North America - Midwest,Michigan,2024-11-21,12,305103.5,25425.29,57.62,0,219,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0287,Acro Digital Inc.,Strategic Mid-Market,North America - East,Massachusetts,2025-06-03,11,72495.0,6590.45,59.42,0,25,0.0,3,Loyal Core Growth Accounts,5,1,2,512,Stable Active
+CUST-0288,Omni Digital Inc.,Strategic Mid-Market,APAC - Regional,Singapore,2025-04-25,11,72774.0,6615.82,57.92,0,64,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0289,Horizon Aerospace Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-05-29,13,74505.0,5731.15,59.16,1,30,0.0769,3,Loyal Core Growth Accounts,5,2,2,522,Stable Active
+CUST-0290,Global Logistics Corp.,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-02-22,18,136289.5,7571.64,63.33,0,126,0.0,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0291,Starlight Health Inc.,Enterprise Tier 1,North America - Midwest,Indiana,2024-12-12,14,252081.0,18005.79,56.39,0,198,0.0,0,Champions & High-Value Strategic,1,3,5,135,Medium At-Risk
+CUST-0292,Pulse Energy LLC,Enterprise Tier 1,North America - East,Massachusetts,2025-05-28,16,437121.5,27320.09,57.45,0,31,0.0,0,Champions & High-Value Strategic,5,4,5,545,Low Risk (Champion)
+CUST-0293,Core Analytics Inc.,Emerging SMB,North America - East,Massachusetts,2025-01-30,9,33480.0,3720.0,59.6,0,149,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0294,Pinnacle Enterprises Corp.,Strategic Mid-Market,North America - Midwest,Michigan,2025-04-27,9,29803.5,3311.5,65.84,0,62,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0295,Acro Systems Inc.,Enterprise Tier 1,North America - South,Tennessee,2025-04-09,15,244307.5,16287.17,60.21,1,80,0.0667,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0296,Omni Solutions Holdings,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-01-04,11,681329.5,61939.05,41.98,1,175,0.0909,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0297,Titan Energy LLC,Emerging SMB,North America - East,Pennsylvania,2025-04-23,20,112296.0,5614.8,63.35,0,66,0.0,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0298,Nexus Health Inc.,Strategic Mid-Market,North America - South,Texas,2025-02-25,22,127574.0,5798.82,61.06,1,123,0.0455,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0299,Acro Analytics Holdings,Emerging SMB,EMEA - Western Europe,Netherlands,2025-06-12,15,217837.0,14522.47,62.96,0,16,0.0,3,Loyal Core Growth Accounts,5,3,5,535,Low Risk (Champion)
+CUST-0300,Global Logistics Inc.,Enterprise Tier 1,North America - South,Texas,2025-06-23,16,505916.5,31619.78,56.94,0,5,0.0,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0301,Acro Solutions Holdings,Enterprise Tier 1,APAC - Regional,Australia,2024-11-24,8,138917.5,17364.69,57.24,0,216,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0302,Vertex Health Inc.,Strategic Mid-Market,North America - West,Nevada,2025-04-14,16,148030.0,9251.88,58.99,1,75,0.0625,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0303,Solstice Health Inc.,Strategic Mid-Market,North America - South,North Carolina,2025-04-16,14,83995.5,5999.68,61.35,0,73,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0304,Acro Enterprises LLC,Emerging SMB,North America - West,California,2025-02-05,13,40138.0,3087.54,58.17,0,143,0.0,1,Promising & Emerging Mid-Market,2,2,1,221,Critical High Risk
+CUST-0305,Titan Networks Inc.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-01-17,12,43865.0,3655.42,60.79,0,162,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0306,Vanguard Digital LLC,Government & Edu,North America - Midwest,Ohio,2024-12-13,11,50913.0,4628.45,59.61,0,197,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0307,Aegis Systems Corp.,Strategic Mid-Market,North America - Midwest,Ohio,2025-01-21,15,129395.0,8626.33,62.85,0,158,0.0,1,Promising & Emerging Mid-Market,1,3,4,134,Medium At-Risk
+CUST-0308,Omni Analytics Corp.,Strategic Mid-Market,APAC - Regional,Singapore,2025-05-28,19,150714.5,7932.34,63.77,2,31,0.1053,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0309,Omni Digital Holdings,Emerging SMB,North America - South,Tennessee,2025-04-08,15,52762.5,3517.5,62.25,0,81,0.0,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0310,Solstice Networks LLC,Strategic Mid-Market,APAC - Regional,Australia,2025-02-18,15,169553.5,11303.57,60.67,0,130,0.0,0,Champions & High-Value Strategic,2,3,4,234,Medium At-Risk
+CUST-0311,Synergy Aerospace Inc.,Strategic Mid-Market,North America - South,Tennessee,2025-01-19,13,124350.5,9565.42,61.27,0,160,0.0,1,Promising & Emerging Mid-Market,1,2,3,123,Critical High Risk
+CUST-0312,Pinnacle Digital LLC,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2024-10-25,10,187178.0,18717.8,59.44,0,246,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0313,Starlight Energy Inc.,Enterprise Tier 1,North America - Midwest,Minnesota,2025-02-15,12,226708.0,18892.33,58.69,0,133,0.0,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0314,Cyber Tech Inc.,Government & Edu,North America - Midwest,Michigan,2025-04-10,16,62669.5,3916.84,56.52,0,79,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0315,Vertex Networks Inc.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-03-18,12,55552.0,4629.33,60.26,0,102,0.0,2,At-Risk & Hibernating Accounts,3,2,2,322,Medium At-Risk
+CUST-0316,Titan Health Holdings,Emerging SMB,EMEA - Western Europe,Switzerland,2025-04-26,13,51540.5,3964.65,59.6,0,63,0.0,1,Promising & Emerging Mid-Market,4,2,1,421,Stable Active
+CUST-0317,Nexus Aerospace Corp.,Strategic Mid-Market,North America - Midwest,Indiana,2025-03-01,13,154690.0,11899.23,61.6,1,119,0.0769,0,Champions & High-Value Strategic,2,2,4,224,Critical High Risk
+CUST-0318,Pulse Energy Corp.,Enterprise Tier 1,North America - East,Pennsylvania,2025-03-02,15,653083.5,43538.9,59.04,0,118,0.0,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0319,Quantum Digital LLC,Enterprise Tier 1,APAC - Regional,Singapore,2025-04-28,11,236299.5,21481.77,57.03,0,61,0.0,0,Champions & High-Value Strategic,4,2,5,425,Low Risk (Champion)
+CUST-0320,Titan Networks Corp.,Strategic Mid-Market,North America - East,Massachusetts,2025-06-14,18,193964.5,10775.81,61.78,0,14,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0321,Cyber Aerospace Corp.,Strategic Mid-Market,North America - Midwest,Michigan,2025-04-19,14,101340.0,7238.57,64.62,1,70,0.0714,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0322,Pinnacle Health Holdings,Emerging SMB,North America - Midwest,Indiana,2025-03-08,16,48279.0,3017.44,63.36,1,112,0.0625,1,Promising & Emerging Mid-Market,2,4,1,241,Medium At-Risk
+CUST-0323,Nexus Digital LLC,Emerging SMB,North America - East,Virginia,2025-04-12,16,60620.0,3788.75,61.2,0,77,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0324,Quantum Energy Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-03-19,14,130137.0,9295.5,64.35,0,101,0.0,1,Promising & Emerging Mid-Market,3,3,4,334,Medium At-Risk
+CUST-0325,Infiniti Solutions LLC,Government & Edu,North America - East,Florida,2024-12-05,14,53845.0,3846.07,60.78,0,205,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0326,Synergy Financial LLC,Emerging SMB,APAC - Regional,India,2025-05-30,15,73030.5,4868.7,59.82,1,29,0.0667,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0327,Synergy Analytics Inc.,Strategic Mid-Market,North America - Midwest,Indiana,2025-04-03,10,55166.0,5516.6,57.08,0,86,0.0,2,At-Risk & Hibernating Accounts,3,1,2,312,Medium At-Risk
+CUST-0328,Core Networks LLC,Emerging SMB,North America - West,Arizona,2025-05-22,13,41486.5,3191.27,63.39,1,37,0.0769,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0329,Vertex Networks Holdings,Strategic Mid-Market,EMEA - Western Europe,France,2025-05-11,20,180624.0,9031.2,62.7,0,48,0.0,0,Champions & High-Value Strategic,5,5,4,554,Low Risk (Champion)
+CUST-0330,Apex Financial LLC,Strategic Mid-Market,North America - West,Washington,2025-05-04,17,307510.5,18088.85,60.08,1,55,0.0588,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0331,Acro Digital Holdings,Strategic Mid-Market,North America - West,Washington,2025-04-15,19,1342298.5,70647.29,60.8,0,74,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0332,Synergy Solutions Inc.,Emerging SMB,North America - Midwest,Illinois,2025-04-22,11,58892.5,5353.86,62.96,0,67,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0333,Titan Digital Inc.,Enterprise Tier 1,APAC - Regional,Australia,2025-04-26,12,362083.5,30173.62,59.98,0,63,0.0,0,Champions & High-Value Strategic,4,2,5,425,Low Risk (Champion)
+CUST-0334,Infiniti Solutions Holdings,Enterprise Tier 1,North America - West,Washington,2025-01-13,13,403990.0,31076.15,62.26,1,166,0.0769,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0335,Omni Labs Corp.,Enterprise Tier 1,APAC - Regional,India,2025-06-13,9,163347.5,18149.72,55.49,1,15,0.1111,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0336,Nexus Health LLC,Enterprise Tier 1,APAC - Regional,Japan,2025-04-17,14,311592.5,22256.61,60.39,1,72,0.0714,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0337,Cyber Analytics LLC,Emerging SMB,APAC - Regional,India,2025-03-07,10,35225.5,3522.55,61.21,0,113,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0338,Aegis Energy Corp.,Emerging SMB,North America - Midwest,Minnesota,2024-08-12,11,45627.5,4147.95,57.34,0,320,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0339,Vanguard Financial Holdings,Strategic Mid-Market,North America - South,North Carolina,2025-06-09,13,105621.0,8124.69,62.02,1,19,0.0769,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0340,Core Energy Holdings,Enterprise Tier 1,North America - West,Washington,2025-04-10,13,231219.0,17786.08,58.61,1,79,0.0769,0,Champions & High-Value Strategic,3,2,5,325,Medium At-Risk
+CUST-0341,Infiniti Solutions LLC,Strategic Mid-Market,North America - East,Pennsylvania,2025-03-10,15,114619.5,7641.3,45.58,1,110,0.0667,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0342,Starlight Energy Inc.,Strategic Mid-Market,APAC - Regional,Singapore,2025-03-02,15,88120.5,5874.7,57.57,0,118,0.0,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0343,Pinnacle Systems Corp.,Enterprise Tier 1,North America - Midwest,Minnesota,2025-03-05,17,323915.5,19053.85,59.8,1,115,0.0588,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0344,Titan Solutions Holdings,Strategic Mid-Market,North America - East,Massachusetts,2024-12-15,16,117152.0,7322.0,57.26,0,195,0.0,1,Promising & Emerging Mid-Market,1,4,3,143,Medium At-Risk
+CUST-0345,Cyber Financial Inc.,Strategic Mid-Market,North America - South,Texas,2025-05-12,17,167910.0,9877.06,61.98,0,47,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0346,Core Energy LLC,Emerging SMB,North America - West,Nevada,2025-04-28,18,70357.5,3908.75,60.31,0,61,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0347,Vertex Financial Corp.,Emerging SMB,North America - East,Virginia,2025-01-30,13,33538.5,2579.88,62.5,1,149,0.0769,2,At-Risk & Hibernating Accounts,2,2,1,221,Critical High Risk
+CUST-0348,Quantum Labs LLC,Enterprise Tier 1,North America - West,Washington,2024-12-14,16,574389.0,35899.31,57.78,1,196,0.0625,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0349,Nexus Logistics Holdings,Strategic Mid-Market,APAC - Regional,Japan,2025-05-24,10,152657.5,15265.75,58.15,0,35,0.0,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0350,Pulse Aerospace Inc.,Emerging SMB,North America - East,New York,2025-05-10,14,127798.0,9128.43,53.94,0,49,0.0,3,Loyal Core Growth Accounts,5,3,4,534,Low Risk (Champion)
+CUST-0351,Horizon Enterprises Corp.,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-01-17,13,134964.0,10381.85,56.95,0,162,0.0,1,Promising & Emerging Mid-Market,1,2,4,124,Critical High Risk
+CUST-0352,Titan Health Inc.,Emerging SMB,North America - Midwest,Ohio,2025-01-16,10,24007.5,2400.75,63.89,0,163,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0353,Pinnacle Systems Inc.,Emerging SMB,North America - West,Nevada,2025-02-19,14,60952.5,4353.75,60.65,1,129,0.0714,1,Promising & Emerging Mid-Market,2,3,2,232,Medium At-Risk
+CUST-0354,Infiniti Aerospace Inc.,Enterprise Tier 1,North America - East,Pennsylvania,2025-05-16,13,248133.0,19087.15,62.2,0,43,0.0,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0355,Infiniti Energy Inc.,Enterprise Tier 1,APAC - Regional,Japan,2025-05-31,15,335004.5,22333.63,61.22,1,28,0.0667,3,Loyal Core Growth Accounts,5,3,5,535,Low Risk (Champion)
+CUST-0356,Synergy Logistics Holdings,Emerging SMB,North America - East,Florida,2025-03-04,13,75797.5,5830.58,62.79,0,116,0.0,1,Promising & Emerging Mid-Market,2,2,2,222,Critical High Risk
+CUST-0357,Starlight Enterprises Holdings,Enterprise Tier 1,North America - West,California,2025-05-28,16,255516.0,15969.75,59.35,0,31,0.0,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0358,Titan Financial Inc.,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-05-08,17,81899.5,4817.62,61.04,0,51,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0359,Titan Digital Inc.,Government & Edu,North America - South,Tennessee,2024-12-28,10,77867.5,7786.75,57.95,0,182,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0360,Nexus Networks Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-06-10,13,141054.0,10850.31,64.97,0,18,0.0,3,Loyal Core Growth Accounts,5,2,4,524,Low Risk (Champion)
+CUST-0361,Apex Financial Inc.,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-06,13,105399.0,8107.62,56.58,0,83,0.0,1,Promising & Emerging Mid-Market,3,2,3,323,Medium At-Risk
+CUST-0362,Quantum Digital LLC,Emerging SMB,North America - West,California,2025-05-28,15,62694.0,4179.6,58.6,0,31,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0363,Starlight Energy LLC,Strategic Mid-Market,APAC - Regional,Japan,2025-04-03,11,44520.0,4047.27,55.99,0,86,0.0,2,At-Risk & Hibernating Accounts,3,2,1,321,Medium At-Risk
+CUST-0364,Cyber Labs Holdings,Strategic Mid-Market,APAC - Regional,Japan,2025-04-24,12,98572.0,8214.33,59.97,0,65,0.0,1,Promising & Emerging Mid-Market,4,2,3,423,Stable Active
+CUST-0365,Synergy Systems Holdings,Government & Edu,North America - East,Virginia,2025-04-18,18,584173.5,32454.08,54.94,1,71,0.0556,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0366,Vanguard Tech Corp.,Strategic Mid-Market,North America - East,Virginia,2025-04-17,16,97502.0,6093.88,60.68,0,72,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0367,Pinnacle Energy Holdings,Government & Edu,EMEA - Western Europe,Netherlands,2025-02-06,14,51567.5,3683.39,61.68,0,142,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0368,Horizon Tech Corp.,Government & Edu,North America - Midwest,Michigan,2025-05-02,15,51597.5,3439.83,57.14,0,57,0.0,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0369,Nexus Networks LLC,Enterprise Tier 1,North America - Midwest,Illinois,2025-04-21,13,265903.5,20454.12,35.48,1,68,0.0769,0,Champions & High-Value Strategic,4,2,5,425,Low Risk (Champion)
+CUST-0370,Starlight Health Holdings,Enterprise Tier 1,APAC - Regional,India,2025-06-08,19,336934.5,17733.39,60.7,2,20,0.1053,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0371,Core Financial Corp.,Enterprise Tier 1,North America - South,Tennessee,2025-03-11,21,236662.5,11269.64,64.29,0,109,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0372,Starlight Digital LLC,Enterprise Tier 1,North America - East,Pennsylvania,2025-01-06,11,96672.0,8788.36,53.58,0,173,0.0,2,At-Risk & Hibernating Accounts,1,2,3,123,Critical High Risk
+CUST-0373,Vertex Health Corp.,Enterprise Tier 1,EMEA - Western Europe,France,2025-01-06,16,356107.0,22256.69,56.32,0,173,0.0,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0374,Acro Systems Inc.,Emerging SMB,North America - Midwest,Michigan,2025-03-24,16,63641.5,3977.59,54.64,1,96,0.0625,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0375,Pinnacle Aerospace Holdings,Enterprise Tier 1,North America - West,Nevada,2024-10-15,10,182295.0,18229.5,60.4,1,256,0.1,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0376,Starlight Aerospace Inc.,Strategic Mid-Market,APAC - Regional,Australia,2025-03-16,9,72573.0,8063.67,62.2,0,104,0.0,2,At-Risk & Hibernating Accounts,3,1,2,312,Medium At-Risk
+CUST-0377,Infiniti Health LLC,Emerging SMB,APAC - Regional,Singapore,2025-03-18,13,53289.0,4099.15,64.12,0,102,0.0,1,Promising & Emerging Mid-Market,3,2,2,322,Medium At-Risk
+CUST-0378,Vertex Networks Holdings,Enterprise Tier 1,North America - Midwest,Indiana,2025-05-20,19,162640.5,8560.03,63.82,0,39,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0379,Omni Tech Corp.,Emerging SMB,EMEA - Western Europe,Netherlands,2024-10-13,16,79768.5,4985.53,57.1,0,258,0.0,1,Promising & Emerging Mid-Market,1,4,3,143,Medium At-Risk
+CUST-0380,Nexus Solutions Inc.,Strategic Mid-Market,North America - West,Oregon,2025-04-13,15,99291.0,6619.4,61.74,0,76,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0381,Starlight Health Inc.,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-03-19,14,195072.0,13933.71,61.69,0,101,0.0,0,Champions & High-Value Strategic,3,3,4,334,Medium At-Risk
+CUST-0382,Cyber Financial LLC,Emerging SMB,North America - South,Texas,2025-04-05,16,69945.5,4371.59,57.79,0,84,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0383,Solstice Solutions LLC,Emerging SMB,North America - South,North Carolina,2025-04-19,11,52484.0,4771.27,57.66,0,70,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0384,Horizon Enterprises Inc.,Emerging SMB,North America - East,Massachusetts,2025-04-04,17,39380.0,2316.47,65.17,0,85,0.0,1,Promising & Emerging Mid-Market,3,4,1,341,Medium At-Risk
+CUST-0385,Pulse Energy Holdings,Emerging SMB,EMEA - Western Europe,United Kingdom,2025-04-04,13,37201.0,2861.62,62.41,0,85,0.0,1,Promising & Emerging Mid-Market,3,2,1,321,Medium At-Risk
+CUST-0386,Horizon Digital LLC,Emerging SMB,APAC - Regional,India,2025-04-13,12,39411.5,3284.29,51.59,0,76,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0387,Vanguard Analytics LLC,Strategic Mid-Market,APAC - Regional,India,2025-06-18,22,179824.5,8173.84,64.2,1,10,0.0455,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0388,Vanguard Systems Corp.,Enterprise Tier 1,North America - East,Pennsylvania,2025-02-17,15,302484.5,20165.63,60.63,0,131,0.0,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0389,Omni Labs Holdings,Emerging SMB,North America - East,Virginia,2025-06-05,11,71574.0,6506.73,57.85,0,23,0.0,3,Loyal Core Growth Accounts,5,2,2,522,Stable Active
+CUST-0390,Starlight Labs Inc.,Emerging SMB,EMEA - Western Europe,Switzerland,2024-06-29,11,37170.5,3379.14,60.45,1,364,0.0909,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0391,Pinnacle Logistics Corp.,Government & Edu,APAC - Regional,Japan,2025-03-21,18,170492.0,9471.78,61.47,0,99,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0392,Starlight Energy Corp.,Strategic Mid-Market,North America - East,Massachusetts,2025-02-01,13,110494.0,8499.54,58.99,0,147,0.0,1,Promising & Emerging Mid-Market,2,2,3,223,Critical High Risk
+CUST-0393,Synergy Enterprises Holdings,Strategic Mid-Market,North America - East,Virginia,2025-02-15,12,260955.0,21746.25,53.06,1,133,0.0833,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0394,Stratum Analytics LLC,Emerging SMB,North America - South,Georgia,2025-03-19,16,67812.5,4238.28,58.57,0,101,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0395,Infiniti Systems Inc.,Strategic Mid-Market,North America - Midwest,Minnesota,2025-03-27,14,91309.5,6522.11,64.07,0,93,0.0,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0396,Pulse Energy Holdings,Government & Edu,North America - South,Texas,2025-02-16,14,262812.5,18772.32,58.79,2,132,0.1429,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0397,Synergy Financial Inc.,Emerging SMB,North America - South,Tennessee,2024-10-01,14,45845.0,3274.64,60.1,1,270,0.0714,1,Promising & Emerging Mid-Market,1,3,1,131,Medium At-Risk
+CUST-0398,Titan Financial Corp.,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-05-02,19,165515.5,8711.34,63.81,1,57,0.0526,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0399,Omni Digital Corp.,Emerging SMB,North America - South,Texas,2024-12-19,15,75190.0,5012.67,58.3,1,191,0.0667,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0400,Quantum Energy Corp.,Emerging SMB,North America - Midwest,Ohio,2025-02-12,10,37423.5,3742.35,58.44,0,136,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0401,Omni Financial Corp.,Enterprise Tier 1,North America - Midwest,Indiana,2025-03-16,21,332452.0,15831.05,60.83,2,104,0.0952,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0402,Pinnacle Systems LLC,Government & Edu,North America - West,Arizona,2025-04-10,13,33426.0,2571.23,60.73,2,79,0.1538,1,Promising & Emerging Mid-Market,3,2,1,321,Medium At-Risk
+CUST-0403,Horizon Solutions LLC,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-06-07,17,178508.0,10500.47,58.94,0,21,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0404,Vertex Energy Corp.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-03-17,10,38610.0,3861.0,56.4,0,103,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0405,Synergy Solutions LLC,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-05-10,11,94940.0,8630.91,62.36,1,49,0.0909,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0406,Apex Systems Inc.,Emerging SMB,APAC - Regional,Australia,2025-05-19,17,42918.0,2524.59,61.64,0,40,0.0,3,Loyal Core Growth Accounts,5,4,1,541,Stable Active
+CUST-0407,Vanguard Digital Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-06-19,17,114129.0,6713.47,62.02,0,9,0.0,3,Loyal Core Growth Accounts,5,4,3,543,Stable Active
+CUST-0408,Pulse Networks LLC,Enterprise Tier 1,APAC - Regional,Australia,2025-02-05,17,1002548.0,58973.41,60.63,1,143,0.0588,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0409,Pulse Enterprises Holdings,Government & Edu,North America - Midwest,Minnesota,2025-01-24,9,20062.0,2229.11,62.79,0,155,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0410,Vertex Labs Inc.,Enterprise Tier 1,North America - West,Nevada,2024-12-21,14,227130.5,16223.61,54.64,1,189,0.0714,0,Champions & High-Value Strategic,1,3,5,135,Medium At-Risk
+CUST-0411,Global Aerospace Holdings,Strategic Mid-Market,North America - West,Oregon,2025-05-31,13,105180.5,8090.81,64.04,0,28,0.0,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0412,Infiniti Solutions LLC,Government & Edu,APAC - Regional,Australia,2025-01-22,20,70258.5,3512.92,62.27,1,157,0.05,1,Promising & Emerging Mid-Market,1,5,2,152,Medium At-Risk
+CUST-0413,Starlight Health Corp.,Government & Edu,North America - Midwest,Indiana,2025-03-17,17,91405.5,5376.79,57.91,1,103,0.0588,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0414,Stratum Systems LLC,Strategic Mid-Market,North America - West,Nevada,2025-01-13,7,151197.5,21599.64,61.2,0,166,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0415,Quantum Logistics Holdings,Emerging SMB,North America - West,Washington,2025-05-23,16,51479.5,3217.47,62.04,0,36,0.0,3,Loyal Core Growth Accounts,5,4,1,541,Stable Active
+CUST-0416,Quantum Tech LLC,Strategic Mid-Market,North America - South,Tennessee,2025-06-08,16,133961.5,8372.59,59.01,1,20,0.0625,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0417,Aegis Solutions LLC,Strategic Mid-Market,EMEA - Western Europe,France,2025-05-04,16,117802.5,7362.66,63.4,0,55,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0418,Vanguard Digital Corp.,Strategic Mid-Market,North America - South,Tennessee,2025-06-21,12,100978.0,8414.83,62.21,0,7,0.0,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0419,Pulse Logistics Holdings,Emerging SMB,North America - East,New York,2025-01-31,16,65229.5,4076.84,58.25,0,148,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0420,Core Energy Holdings,Emerging SMB,North America - West,Washington,2025-05-20,8,30667.5,3833.44,60.58,0,39,0.0,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0421,Solstice Financial Inc.,Emerging SMB,North America - East,Virginia,2024-11-03,11,25453.5,2313.95,61.4,0,237,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0422,Pulse Analytics Holdings,Emerging SMB,North America - Midwest,Indiana,2024-12-31,11,39431.5,3584.68,57.26,0,179,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0423,Apex Systems Holdings,Enterprise Tier 1,North America - West,Oregon,2025-05-22,12,146950.0,12245.83,60.86,0,37,0.0,3,Loyal Core Growth Accounts,5,2,4,524,Low Risk (Champion)
+CUST-0424,Starlight Digital Holdings,Strategic Mid-Market,North America - Midwest,Illinois,2025-04-09,15,96835.5,6455.7,60.99,0,80,0.0,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0425,Core Tech Corp.,Enterprise Tier 1,North America - Midwest,Indiana,2025-04-10,11,123239.5,11203.59,57.93,0,79,0.0,2,At-Risk & Hibernating Accounts,3,2,3,323,Medium At-Risk
+CUST-0426,Pinnacle Systems Holdings,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-03-21,16,130172.0,8135.75,57.5,0,99,0.0,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0427,Stratum Logistics Inc.,Strategic Mid-Market,North America - West,California,2025-06-22,11,45478.0,4134.36,58.96,0,6,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0428,Core Financial LLC,Emerging SMB,EMEA - Western Europe,France,2025-06-17,22,284052.5,12911.48,61.52,1,11,0.0455,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0429,Synergy Enterprises Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-04-28,15,697752.0,46516.8,62.86,1,61,0.0667,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0430,Nexus Tech Corp.,Enterprise Tier 1,APAC - Regional,Australia,2025-04-03,18,356725.0,19818.06,62.55,0,86,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0431,Pulse Energy Holdings,Enterprise Tier 1,North America - West,Arizona,2025-04-21,13,278843.0,21449.46,62.31,0,68,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0432,Titan Solutions LLC,Emerging SMB,EMEA - Western Europe,France,2025-01-01,14,26027.5,1859.11,61.86,0,178,0.0,1,Promising & Emerging Mid-Market,1,3,1,131,Medium At-Risk
+CUST-0433,Omni Health LLC,Emerging SMB,EMEA - Western Europe,France,2025-06-01,24,94794.0,3949.75,62.66,1,27,0.0417,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0434,Titan Energy Holdings,Enterprise Tier 1,APAC - Regional,Australia,2025-04-09,20,367372.5,18368.62,45.64,0,80,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0435,Pulse Tech LLC,Enterprise Tier 1,North America - Midwest,Illinois,2025-01-17,16,374429.0,23401.81,61.29,1,162,0.0625,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0436,Global Analytics LLC,Emerging SMB,APAC - Regional,Singapore,2025-03-18,14,39485.0,2820.36,56.31,0,102,0.0,1,Promising & Emerging Mid-Market,3,3,1,331,Medium At-Risk
+CUST-0437,Infiniti Aerospace LLC,Enterprise Tier 1,APAC - Regional,Japan,2025-01-23,15,499548.5,33303.23,55.07,2,156,0.1333,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0438,Nexus Analytics Holdings,Emerging SMB,North America - West,Arizona,2025-02-02,8,29079.0,3634.88,64.68,0,146,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0439,Infiniti Digital Holdings,Emerging SMB,North America - West,Washington,2025-04-16,12,31840.0,2653.33,60.65,0,73,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0440,Nexus Analytics Inc.,Enterprise Tier 1,North America - West,California,2024-09-15,5,106150.0,21230.0,58.42,0,286,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0441,Cyber Financial Holdings,Enterprise Tier 1,North America - West,Nevada,2025-04-26,8,173327.5,21665.94,59.86,1,63,0.125,2,At-Risk & Hibernating Accounts,4,1,4,414,Low Risk (Champion)
+CUST-0442,Vanguard Health Holdings,Government & Edu,APAC - Regional,Singapore,2025-03-02,12,32737.5,2728.12,60.35,0,118,0.0,2,At-Risk & Hibernating Accounts,2,2,1,221,Critical High Risk
+CUST-0443,Synergy Energy Corp.,Strategic Mid-Market,EMEA - Western Europe,France,2025-03-15,11,191155.0,17377.73,47.53,0,105,0.0,0,Champions & High-Value Strategic,3,2,4,324,Medium At-Risk
+CUST-0444,Pulse Energy Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-17,13,149823.5,11524.88,60.75,1,72,0.0769,0,Champions & High-Value Strategic,4,3,4,434,Low Risk (Champion)
+CUST-0445,Cyber Energy LLC,Emerging SMB,EMEA - Western Europe,France,2025-03-16,12,58572.0,4881.0,60.38,0,104,0.0,2,At-Risk & Hibernating Accounts,3,2,2,322,Medium At-Risk
+CUST-0446,Horizon Analytics Holdings,Government & Edu,North America - West,Washington,2024-12-24,16,40669.0,2541.81,60.48,0,186,0.0,1,Promising & Emerging Mid-Market,1,4,1,141,Medium At-Risk
+CUST-0447,Horizon Energy LLC,Government & Edu,North America - West,Oregon,2025-05-16,14,73615.0,5258.21,49.62,0,43,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0448,Pinnacle Labs Corp.,Emerging SMB,APAC - Regional,India,2025-06-01,13,46996.0,3615.08,57.13,0,27,0.0,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0449,Acro Aerospace LLC,Strategic Mid-Market,EMEA - Western Europe,France,2025-01-15,9,360840.0,40093.33,60.24,0,164,0.0,0,Champions & High-Value Strategic,1,1,5,115,Critical High Risk
+CUST-0450,Pinnacle Systems Holdings,Enterprise Tier 1,North America - South,North Carolina,2025-01-15,16,471877.5,29492.34,60.18,1,164,0.0625,0,Champions & High-Value Strategic,1,4,5,145,Medium At-Risk
+CUST-0451,Synergy Logistics Inc.,Emerging SMB,North America - Midwest,Illinois,2025-04-17,10,60453.0,6045.3,57.88,0,72,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0452,Starlight Aerospace LLC,Strategic Mid-Market,APAC - Regional,India,2025-04-30,22,196715.0,8941.59,57.49,0,59,0.0,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0453,Vanguard Enterprises LLC,Strategic Mid-Market,EMEA - Western Europe,France,2025-01-26,16,96416.5,6026.03,61.97,0,153,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0454,Synergy Systems Corp.,Government & Edu,North America - West,California,2025-06-13,21,66102.0,3147.71,50.49,1,15,0.0476,3,Loyal Core Growth Accounts,5,5,2,552,Stable Active
+CUST-0455,Titan Enterprises Corp.,Enterprise Tier 1,North America - East,New York,2025-06-15,17,248509.0,14618.18,59.24,0,13,0.0,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0456,Global Financial Holdings,Strategic Mid-Market,North America - East,Massachusetts,2025-01-13,14,104182.0,7441.57,60.63,0,166,0.0,1,Promising & Emerging Mid-Market,1,3,3,133,Medium At-Risk
+CUST-0457,Apex Energy Corp.,Enterprise Tier 1,North America - South,Tennessee,2025-04-09,15,184639.5,12309.3,62.11,0,80,0.0,0,Champions & High-Value Strategic,3,3,4,334,Medium At-Risk
+CUST-0458,Pulse Networks Corp.,Strategic Mid-Market,North America - Midwest,Michigan,2025-02-10,10,99517.5,9951.75,59.45,0,138,0.0,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0459,Pinnacle Networks Inc.,Enterprise Tier 1,North America - East,Florida,2025-03-30,8,72655.0,9081.88,65.58,0,90,0.0,2,At-Risk & Hibernating Accounts,3,1,2,312,Medium At-Risk
+CUST-0460,Aegis Energy Inc.,Enterprise Tier 1,North America - West,Nevada,2025-03-14,18,514642.5,28591.25,59.03,1,106,0.0556,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0461,Omni Tech Holdings,Enterprise Tier 1,North America - South,Georgia,2025-04-19,16,409435.5,25589.72,60.62,1,70,0.0625,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0462,Pinnacle Tech Inc.,Emerging SMB,North America - Midwest,Indiana,2025-01-27,14,51987.5,3713.39,61.0,1,152,0.0714,1,Promising & Emerging Mid-Market,2,3,2,232,Medium At-Risk
+CUST-0463,Infiniti Systems LLC,Emerging SMB,North America - Midwest,Minnesota,2025-04-09,11,43567.0,3960.64,60.84,0,80,0.0,2,At-Risk & Hibernating Accounts,3,2,1,321,Medium At-Risk
+CUST-0464,Stratum Energy Holdings,Strategic Mid-Market,North America - West,Arizona,2025-06-25,16,201029.0,12564.31,58.75,0,3,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0465,Cyber Logistics Corp.,Government & Edu,North America - East,Virginia,2025-05-12,21,111420.0,5305.71,59.58,0,47,0.0,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0466,Omni Labs Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-01-24,16,171813.5,10738.34,59.19,0,155,0.0,0,Champions & High-Value Strategic,2,4,4,244,Medium At-Risk
+CUST-0467,Omni Tech LLC,Strategic Mid-Market,North America - Midwest,Indiana,2025-03-19,11,762695.0,69335.91,60.05,0,101,0.0,0,Champions & High-Value Strategic,3,2,5,325,Medium At-Risk
+CUST-0468,Vanguard Solutions Holdings,Emerging SMB,North America - South,North Carolina,2025-03-04,13,33359.5,2566.12,60.76,0,116,0.0,2,At-Risk & Hibernating Accounts,2,3,1,231,Medium At-Risk
+CUST-0469,Vertex Health Inc.,Strategic Mid-Market,North America - West,Washington,2024-12-01,13,111809.5,8600.73,60.87,0,209,0.0,1,Promising & Emerging Mid-Market,1,3,3,133,Medium At-Risk
+CUST-0470,Pulse Financial Corp.,Government & Edu,North America - East,Virginia,2025-04-14,18,51790.0,2877.22,58.14,0,75,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0471,Core Enterprises Holdings,Enterprise Tier 1,North America - Midwest,Michigan,2024-11-24,11,150598.0,13690.73,59.76,0,216,0.0,2,At-Risk & Hibernating Accounts,1,2,4,124,Critical High Risk
+CUST-0472,Pinnacle Analytics Inc.,Government & Edu,North America - Midwest,Michigan,2025-03-07,18,60878.5,3382.14,61.84,0,113,0.0,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0473,Aegis Tech Inc.,Enterprise Tier 1,North America - South,North Carolina,2025-04-06,15,331675.5,22111.7,59.25,1,83,0.0667,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0474,Omni Health LLC,Emerging SMB,APAC - Regional,Singapore,2025-03-31,16,64576.0,4036.0,61.66,0,89,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0475,Pinnacle Financial Corp.,Strategic Mid-Market,North America - West,Washington,2025-03-13,19,219688.5,11562.55,59.97,0,107,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0476,Pulse Solutions Holdings,Government & Edu,APAC - Regional,Australia,2025-06-20,11,43089.0,3917.18,56.89,0,8,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0477,Global Labs Holdings,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-06-09,9,193357.0,21484.11,62.79,1,19,0.1111,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0478,Aegis Networks Inc.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-04-23,9,64646.0,7182.89,55.46,0,66,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0479,Titan Labs LLC,Government & Edu,North America - East,Florida,2024-12-06,10,23201.5,2320.15,57.91,0,204,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0480,Quantum Tech Corp.,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2025-04-08,15,69489.0,4632.6,60.65,0,81,0.0,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0481,Synergy Solutions LLC,Emerging SMB,EMEA - Western Europe,Netherlands,2025-01-25,10,18502.5,1850.25,62.43,0,154,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0482,Quantum Networks Corp.,Emerging SMB,APAC - Regional,India,2025-04-20,18,53509.0,2972.72,60.52,1,69,0.0556,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0483,Vertex Energy Holdings,Strategic Mid-Market,North America - East,Pennsylvania,2024-12-13,12,141839.0,11819.92,63.78,1,197,0.0833,1,Promising & Emerging Mid-Market,1,2,4,124,Critical High Risk
+CUST-0484,Synergy Energy Holdings,Emerging SMB,North America - South,Texas,2025-04-25,11,56747.5,5158.86,63.18,0,64,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0485,Stratum Aerospace LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-01-12,12,92313.0,7692.75,62.36,1,167,0.0833,2,At-Risk & Hibernating Accounts,1,2,3,123,Critical High Risk
+CUST-0486,Core Logistics Inc.,Government & Edu,APAC - Regional,Japan,2025-05-06,19,88814.5,4674.45,59.45,1,53,0.0526,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0487,Solstice Systems Inc.,Enterprise Tier 1,North America - South,North Carolina,2025-01-04,12,253992.0,21166.0,58.0,0,175,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0488,Vertex Energy Inc.,Strategic Mid-Market,North America - East,Pennsylvania,2024-12-20,21,81387.5,3875.6,52.07,1,190,0.0476,1,Promising & Emerging Mid-Market,1,5,3,153,Medium At-Risk
+CUST-0489,Nexus Logistics Holdings,Government & Edu,North America - West,Washington,2025-04-28,17,402144.5,23655.56,53.0,1,61,0.0588,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0490,Global Financial Holdings,Emerging SMB,North America - South,Tennessee,2025-05-03,16,45438.5,2839.91,62.88,1,56,0.0625,1,Promising & Emerging Mid-Market,4,4,1,441,Stable Active
+CUST-0491,Core Systems Corp.,Strategic Mid-Market,APAC - Regional,Australia,2025-04-16,13,78071.5,6005.5,64.48,1,73,0.0769,1,Promising & Emerging Mid-Market,4,3,2,432,Stable Active
+CUST-0492,Quantum Solutions Holdings,Emerging SMB,EMEA - Western Europe,Germany,2025-04-18,17,62845.5,3696.79,59.84,0,71,0.0,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0493,Aegis Tech Inc.,Strategic Mid-Market,North America - Midwest,Minnesota,2024-10-11,14,163846.0,11703.29,61.48,0,260,0.0,0,Champions & High-Value Strategic,1,3,4,134,Medium At-Risk
+CUST-0494,Stratum Health Holdings,Enterprise Tier 1,North America - West,Washington,2025-04-03,12,1128574.0,94047.83,55.48,1,86,0.0833,0,Champions & High-Value Strategic,3,2,5,325,Medium At-Risk
+CUST-0495,Cyber Financial Corp.,Strategic Mid-Market,North America - Midwest,Ohio,2025-04-20,12,465529.0,38794.08,60.86,0,69,0.0,0,Champions & High-Value Strategic,4,2,5,425,Low Risk (Champion)
+CUST-0496,Quantum Tech Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-04-24,11,47551.0,4322.82,66.89,1,65,0.0909,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0497,Aegis Enterprises Inc.,Strategic Mid-Market,North America - East,Florida,2025-03-06,17,145923.0,8583.71,59.34,0,114,0.0,1,Promising & Emerging Mid-Market,2,4,4,244,Medium At-Risk
+CUST-0498,Nexus Aerospace Inc.,Enterprise Tier 1,North America - West,California,2025-01-17,11,160227.5,14566.14,58.12,0,162,0.0,2,At-Risk & Hibernating Accounts,1,2,4,124,Critical High Risk
+CUST-0499,Core Aerospace Corp.,Government & Edu,EMEA - Western Europe,Germany,2024-12-08,13,41561.0,3197.0,60.17,0,202,0.0,2,At-Risk & Hibernating Accounts,1,3,1,131,Medium At-Risk
+CUST-0500,Nexus Solutions LLC,Government & Edu,North America - West,Arizona,2025-03-27,9,46292.0,5143.56,56.05,0,93,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0501,Acro Analytics LLC,Emerging SMB,North America - West,Oregon,2024-10-28,12,42654.0,3554.5,62.9,0,243,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0502,Synergy Networks Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-03-16,14,169368.0,12097.71,57.41,0,104,0.0,0,Champions & High-Value Strategic,3,3,4,334,Medium At-Risk
+CUST-0503,Horizon Tech Corp.,Strategic Mid-Market,APAC - Regional,India,2025-05-06,19,209510.5,11026.87,53.55,0,53,0.0,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0504,Stratum Aerospace Inc.,Emerging SMB,North America - Midwest,Minnesota,2025-04-08,12,45215.0,3767.92,58.0,0,81,0.0,2,At-Risk & Hibernating Accounts,3,2,1,321,Medium At-Risk
+CUST-0505,Titan Financial Holdings,Emerging SMB,North America - South,Georgia,2025-03-06,14,28128.5,2009.18,57.87,0,114,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0506,Pinnacle Health Corp.,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2025-04-03,14,253429.0,18102.07,63.42,0,86,0.0,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0507,Aegis Enterprises LLC,Government & Edu,APAC - Regional,Japan,2025-03-29,13,79530.0,6117.69,59.41,0,91,0.0,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0508,Cyber Tech Holdings,Emerging SMB,North America - South,Georgia,2025-03-21,29,105797.5,3648.19,63.01,0,99,0.0,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0509,Core Enterprises LLC,Government & Edu,North America - West,Oregon,2025-05-23,21,106586.0,5075.52,60.78,0,36,0.0,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0510,Vertex Aerospace LLC,Emerging SMB,North America - East,Florida,2025-01-05,12,61757.5,5146.46,60.57,0,174,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0511,Vanguard Tech LLC,Emerging SMB,North America - South,Texas,2025-04-26,16,58189.0,3636.81,57.64,0,63,0.0,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0512,Vertex Enterprises Corp.,Strategic Mid-Market,North America - South,Georgia,2025-04-24,12,127847.5,10653.96,57.17,0,65,0.0,1,Promising & Emerging Mid-Market,4,2,4,424,Low Risk (Champion)
+CUST-0513,Acro Logistics Inc.,Government & Edu,North America - West,Washington,2025-02-28,18,72425.0,4023.61,48.78,0,120,0.0,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0514,Quantum Labs Holdings,Emerging SMB,North America - West,Arizona,2025-05-15,18,71396.0,3966.44,56.36,0,44,0.0,3,Loyal Core Growth Accounts,5,5,2,552,Stable Active
+CUST-0515,Vanguard Health Corp.,Enterprise Tier 1,EMEA - Western Europe,France,2025-03-22,22,252373.5,11471.52,64.99,0,98,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0516,Pinnacle Health Holdings,Enterprise Tier 1,EMEA - Western Europe,France,2025-05-30,19,290766.5,15303.5,62.37,1,29,0.0526,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0517,Pinnacle Logistics LLC,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-05-11,12,100962.5,8413.54,57.82,0,48,0.0,3,Loyal Core Growth Accounts,5,2,3,523,Stable Active
+CUST-0518,Cyber Systems Holdings,Emerging SMB,North America - Midwest,Ohio,2025-04-19,12,33881.0,2823.42,62.71,0,70,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0519,Starlight Financial Holdings,Government & Edu,North America - East,Florida,2025-01-29,12,65319.5,5443.29,57.77,0,150,0.0,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0520,Aegis Labs Corp.,Enterprise Tier 1,North America - East,Virginia,2025-01-30,17,151234.0,8896.12,63.53,0,149,0.0,1,Promising & Emerging Mid-Market,2,4,4,244,Medium At-Risk
+CUST-0521,Stratum Analytics Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-05-23,19,158382.5,8335.92,58.34,0,36,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0522,Vanguard Financial Corp.,Strategic Mid-Market,North America - South,Georgia,2025-04-29,17,165278.0,9722.24,59.56,0,60,0.0,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0523,Pulse Energy LLC,Government & Edu,North America - Midwest,Minnesota,2025-04-11,13,22996.5,1768.96,59.18,0,78,0.0,2,At-Risk & Hibernating Accounts,3,3,1,331,Medium At-Risk
+CUST-0524,Pulse Aerospace Corp.,Emerging SMB,APAC - Regional,Australia,2025-02-04,14,45944.0,3281.71,63.24,0,144,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0525,Omni Solutions Holdings,Emerging SMB,North America - West,Arizona,2025-05-29,15,34639.0,2309.27,62.0,1,30,0.0667,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0526,Nexus Energy Inc.,Strategic Mid-Market,North America - East,New York,2025-05-11,8,96827.5,12103.44,56.86,0,48,0.0,2,At-Risk & Hibernating Accounts,5,1,3,513,Stable Active
+CUST-0527,Apex Health Corp.,Strategic Mid-Market,APAC - Regional,Japan,2025-05-07,12,200730.5,16727.54,61.34,1,52,0.0833,0,Champions & High-Value Strategic,4,2,4,424,Low Risk (Champion)
+CUST-0528,Vertex Labs Corp.,Strategic Mid-Market,North America - East,Massachusetts,2024-12-22,10,49915.5,4991.55,61.01,0,188,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0529,Titan Aerospace LLC,Enterprise Tier 1,North America - East,Florida,2025-05-30,12,224785.0,18732.08,60.0,2,29,0.1667,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0530,Infiniti Aerospace Holdings,Emerging SMB,North America - East,New York,2024-10-04,10,74205.0,7420.5,62.0,0,267,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0531,Stratum Energy Holdings,Emerging SMB,North America - East,New York,2025-04-29,18,83648.5,4647.14,61.71,1,60,0.0556,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0532,Titan Labs LLC,Government & Edu,EMEA - Western Europe,France,2025-05-11,20,85792.5,4289.62,61.88,0,48,0.0,1,Promising & Emerging Mid-Market,5,5,3,553,Stable Active
+CUST-0533,Apex Energy Holdings,Government & Edu,North America - West,California,2025-03-02,14,254100.5,18150.04,62.82,1,118,0.0714,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0534,Quantum Energy Corp.,Strategic Mid-Market,North America - West,Washington,2025-06-08,18,100754.5,5597.47,65.45,0,20,0.0,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0535,Infiniti Energy LLC,Emerging SMB,North America - Midwest,Michigan,2025-05-10,16,65869.0,4116.81,61.91,0,49,0.0,1,Promising & Emerging Mid-Market,5,4,2,542,Stable Active
+CUST-0536,Core Systems LLC,Government & Edu,North America - South,Tennessee,2025-05-12,18,75132.5,4174.03,60.12,0,47,0.0,1,Promising & Emerging Mid-Market,5,5,2,552,Stable Active
+CUST-0537,Solstice Enterprises Corp.,Emerging SMB,North America - Midwest,Illinois,2024-11-25,8,20282.5,2535.31,63.5,0,215,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0538,Nexus Systems Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-03-24,15,115892.5,7726.17,57.64,0,96,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0539,Stratum Aerospace Inc.,Strategic Mid-Market,APAC - Regional,Singapore,2025-06-13,19,176126.5,9269.82,60.73,0,15,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0540,Omni Systems Holdings,Enterprise Tier 1,North America - South,North Carolina,2024-10-31,10,174642.5,17464.25,55.62,0,240,0.0,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0541,Solstice Systems Inc.,Government & Edu,North America - West,Washington,2024-07-10,5,9640.0,1928.0,63.09,0,353,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0542,Solstice Aerospace LLC,Emerging SMB,North America - East,New York,2025-01-15,18,45384.5,2521.36,60.81,1,164,0.0556,1,Promising & Emerging Mid-Market,1,5,1,151,Medium At-Risk
+CUST-0543,Horizon Energy Inc.,Strategic Mid-Market,North America - West,Oregon,2025-03-29,9,708118.0,78679.78,55.29,0,91,0.0,0,Champions & High-Value Strategic,3,1,5,315,Medium At-Risk
+CUST-0544,Apex Enterprises Corp.,Emerging SMB,APAC - Regional,India,2025-03-08,23,86373.0,3755.35,61.61,1,112,0.0435,1,Promising & Emerging Mid-Market,2,5,3,253,Medium At-Risk
+CUST-0545,Vertex Logistics Corp.,Emerging SMB,EMEA - Western Europe,Germany,2024-12-16,8,55288.5,6911.06,63.82,0,194,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0546,Solstice Health LLC,Strategic Mid-Market,North America - South,Georgia,2025-03-21,14,79975.0,5712.5,58.9,1,99,0.0714,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0547,Vertex Energy LLC,Enterprise Tier 1,North America - East,New York,2025-04-28,17,309102.5,18182.5,63.94,0,61,0.0,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0548,Global Enterprises Inc.,Emerging SMB,North America - Midwest,Indiana,2025-02-06,16,59838.5,3739.91,42.46,1,142,0.0625,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0549,Infiniti Analytics Holdings,Strategic Mid-Market,North America - Midwest,Illinois,2025-02-12,11,80423.5,7311.23,61.69,0,136,0.0,2,At-Risk & Hibernating Accounts,2,2,3,223,Critical High Risk
+CUST-0550,Horizon Digital Holdings,Emerging SMB,North America - South,Georgia,2025-05-24,13,54448.0,4188.31,61.55,0,35,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0551,Starlight Energy Holdings,Strategic Mid-Market,North America - South,Georgia,2025-03-07,12,84649.0,7054.08,58.63,0,113,0.0,1,Promising & Emerging Mid-Market,2,2,3,223,Critical High Risk
+CUST-0552,Solstice Networks Holdings,Emerging SMB,North America - East,Florida,2025-03-06,13,47553.5,3657.96,60.23,0,114,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0553,Pinnacle Digital Corp.,Strategic Mid-Market,APAC - Regional,Singapore,2024-12-29,10,72090.0,7209.0,55.76,0,181,0.0,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0554,Vertex Logistics Corp.,Strategic Mid-Market,North America - South,Georgia,2024-11-05,12,91047.0,7587.25,63.64,1,235,0.0833,2,At-Risk & Hibernating Accounts,1,2,3,123,Critical High Risk
+CUST-0555,Core Financial LLC,Emerging SMB,North America - East,New York,2025-03-16,17,75231.0,4425.35,60.32,0,104,0.0,1,Promising & Emerging Mid-Market,3,5,2,352,Medium At-Risk
+CUST-0556,Apex Logistics Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-02-15,11,73207.5,6655.23,62.5,1,133,0.0909,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0557,Quantum Solutions Inc.,Enterprise Tier 1,North America - West,Nevada,2025-03-22,12,163674.5,13639.54,61.16,0,98,0.0,0,Champions & High-Value Strategic,3,2,4,324,Medium At-Risk
+CUST-0558,Cyber Energy Holdings,Enterprise Tier 1,North America - East,New York,2025-04-30,13,343907.5,26454.42,54.48,0,59,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0559,Vertex Financial Inc.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-04-29,11,30172.0,2742.91,59.09,0,60,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0560,Acro Health Inc.,Emerging SMB,North America - Midwest,Minnesota,2025-04-21,8,42000.0,5250.0,54.72,0,68,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0561,Core Digital Inc.,Emerging SMB,APAC - Regional,Japan,2025-06-05,12,45656.0,3804.67,56.63,0,23,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0562,Solstice Energy Corp.,Strategic Mid-Market,APAC - Regional,India,2025-05-14,12,197070.0,16422.5,59.71,1,45,0.0833,3,Loyal Core Growth Accounts,5,2,4,524,Low Risk (Champion)
+CUST-0563,Omni Solutions LLC,Enterprise Tier 1,North America - Midwest,Michigan,2025-01-13,10,113286.0,11328.6,61.05,0,166,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0564,Pulse Solutions Inc.,Enterprise Tier 1,North America - West,Nevada,2025-03-10,16,314543.5,19658.97,57.61,0,110,0.0,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0565,Horizon Health LLC,Strategic Mid-Market,North America - South,Texas,2025-01-17,10,50265.5,5026.55,54.89,0,162,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0566,Starlight Logistics Corp.,Strategic Mid-Market,APAC - Regional,India,2025-01-23,16,100529.0,6283.06,62.07,1,156,0.0625,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0567,Infiniti Analytics Corp.,Strategic Mid-Market,North America - South,Texas,2025-05-11,19,146762.0,7724.32,61.14,0,48,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0568,Synergy Logistics Inc.,Strategic Mid-Market,North America - South,North Carolina,2024-11-30,12,43468.0,3622.33,59.99,0,210,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0569,Infiniti Health LLC,Government & Edu,North America - South,North Carolina,2025-05-17,14,44970.0,3212.14,61.18,0,42,0.0,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0570,Global Networks Corp.,Strategic Mid-Market,North America - Midwest,Michigan,2025-05-04,13,183272.5,14097.88,56.23,0,55,0.0,0,Champions & High-Value Strategic,4,3,4,434,Low Risk (Champion)
+CUST-0571,Infiniti Labs Corp.,Strategic Mid-Market,North America - South,North Carolina,2024-07-24,9,79567.5,8840.83,57.45,0,339,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0572,Omni Health LLC,Emerging SMB,North America - Midwest,Minnesota,2025-06-05,13,58593.5,4507.19,58.97,0,23,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0573,Solstice Digital Corp.,Strategic Mid-Market,North America - Midwest,Minnesota,2025-05-12,18,107201.0,5955.61,63.92,1,47,0.0556,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0574,Horizon Digital Holdings,Emerging SMB,North America - Midwest,Illinois,2024-11-26,16,106257.0,6641.06,58.33,0,214,0.0,1,Promising & Emerging Mid-Market,1,4,3,143,Medium At-Risk
+CUST-0575,Solstice Enterprises Corp.,Emerging SMB,APAC - Regional,Singapore,2025-04-02,18,85103.0,4727.94,61.19,0,87,0.0,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0576,Cyber Labs Corp.,Government & Edu,North America - South,North Carolina,2025-04-20,11,23082.5,2098.41,50.17,0,69,0.0,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0577,Vertex Digital Holdings,Enterprise Tier 1,APAC - Regional,India,2025-05-16,7,124009.5,17715.64,55.65,1,43,0.1429,2,At-Risk & Hibernating Accounts,5,1,3,513,Stable Active
+CUST-0578,Synergy Networks LLC,Government & Edu,North America - West,Oregon,2025-03-20,17,41504.5,2441.44,62.1,0,100,0.0,1,Promising & Emerging Mid-Market,3,5,1,351,Medium At-Risk
+CUST-0579,Synergy Labs Holdings,Strategic Mid-Market,North America - South,Texas,2025-03-04,8,136098.5,17012.31,58.63,0,116,0.0,2,At-Risk & Hibernating Accounts,2,1,4,214,Critical High Risk
+CUST-0580,Cyber Analytics Holdings,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-03-16,15,126146.0,8409.73,47.41,1,104,0.0667,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0581,Stratum Energy Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-05-06,15,62337.5,4155.83,65.01,2,53,0.1333,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0582,Starlight Labs Inc.,Government & Edu,North America - East,Massachusetts,2025-04-30,17,54801.5,3223.62,60.65,1,59,0.0588,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0583,Starlight Solutions Inc.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-02-08,10,127241.0,12724.1,52.04,1,140,0.1,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0584,Acro Digital Holdings,Strategic Mid-Market,North America - East,New York,2025-04-28,18,113823.0,6323.5,56.88,1,61,0.0556,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0585,Quantum Logistics Corp.,Emerging SMB,EMEA - Western Europe,Switzerland,2025-04-25,24,101681.0,4236.71,58.99,1,64,0.0417,1,Promising & Emerging Mid-Market,4,5,3,453,Stable Active
+CUST-0586,Stratum Analytics Corp.,Strategic Mid-Market,North America - South,North Carolina,2025-04-10,19,176025.5,9264.5,60.57,0,79,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0587,Core Aerospace Corp.,Enterprise Tier 1,North America - Midwest,Illinois,2025-01-30,10,151457.5,15145.75,64.89,0,149,0.0,2,At-Risk & Hibernating Accounts,2,1,4,214,Critical High Risk
+CUST-0588,Pulse Systems LLC,Enterprise Tier 1,North America - South,Texas,2025-01-08,13,322012.5,24770.19,60.54,0,171,0.0,0,Champions & High-Value Strategic,1,3,5,135,Medium At-Risk
+CUST-0589,Quantum Labs Corp.,Enterprise Tier 1,North America - Midwest,Michigan,2024-12-17,12,129717.0,10809.75,62.69,0,193,0.0,1,Promising & Emerging Mid-Market,1,2,4,124,Critical High Risk
+CUST-0590,Acro Aerospace Corp.,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2025-04-13,16,314844.5,19677.78,59.25,1,76,0.0625,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0591,Starlight Aerospace Inc.,Enterprise Tier 1,North America - South,Tennessee,2025-05-01,17,389420.0,22907.06,60.34,1,58,0.0588,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0592,Acro Systems LLC,Emerging SMB,North America - East,New York,2025-02-17,15,60442.5,4029.5,59.98,0,131,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0593,Apex Financial Inc.,Enterprise Tier 1,APAC - Regional,Japan,2025-04-02,11,150102.2,13645.65,42.3,0,87,0.0,2,At-Risk & Hibernating Accounts,3,2,4,324,Medium At-Risk
+CUST-0594,Aegis Energy Corp.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-03-10,10,88007.5,8800.75,57.35,0,110,0.0,2,At-Risk & Hibernating Accounts,3,1,3,313,Medium At-Risk
+CUST-0595,Acro Energy Holdings,Emerging SMB,North America - South,Georgia,2025-03-06,15,62676.5,4178.43,61.74,1,114,0.0667,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0596,Core Networks Corp.,Strategic Mid-Market,North America - West,Nevada,2025-01-02,11,57308.5,5209.86,61.99,0,177,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0597,Core Tech Corp.,Emerging SMB,North America - South,Tennessee,2024-11-29,14,52371.5,3740.82,55.86,0,211,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0598,Core Tech Corp.,Enterprise Tier 1,North America - West,Oregon,2025-06-17,14,222895.0,15921.07,58.87,0,11,0.0,3,Loyal Core Growth Accounts,5,3,5,535,Low Risk (Champion)
+CUST-0599,Vertex Analytics Inc.,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-04-27,14,323702.0,23121.57,60.32,0,62,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0600,Starlight Financial Corp.,Enterprise Tier 1,North America - South,Texas,2024-11-03,5,145357.0,29071.4,65.32,1,237,0.2,2,At-Risk & Hibernating Accounts,1,1,4,114,Critical High Risk
+CUST-0601,Horizon Networks Holdings,Enterprise Tier 1,EMEA - Western Europe,France,2025-02-16,15,137587.0,9172.47,50.03,0,132,0.0,1,Promising & Emerging Mid-Market,2,4,4,244,Medium At-Risk
+CUST-0602,Infiniti Health Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-04-22,15,95548.0,6369.87,63.89,1,67,0.0667,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0603,Starlight Financial Holdings,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-06-15,16,187775.0,11735.94,58.25,0,13,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0604,Pinnacle Analytics Inc.,Enterprise Tier 1,APAC - Regional,Japan,2025-03-23,11,275147.5,25013.41,61.19,2,97,0.1818,0,Champions & High-Value Strategic,3,2,5,325,Medium At-Risk
+CUST-0605,Acro Systems Corp.,Enterprise Tier 1,North America - Midwest,Illinois,2025-04-29,18,311980.0,17332.22,54.04,0,60,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0606,Omni Financial Corp.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-04-20,20,220398.5,11019.92,58.92,0,69,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0607,Global Analytics Corp.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-02-21,15,93201.5,6213.43,61.79,0,127,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0608,Global Solutions Holdings,Strategic Mid-Market,APAC - Regional,Japan,2025-02-09,19,132497.5,6973.55,60.54,0,139,0.0,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0609,Stratum Solutions Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-05-09,15,149216.5,9947.77,57.9,0,50,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0610,Omni Financial Holdings,Emerging SMB,EMEA - Western Europe,United Kingdom,2024-12-09,6,11347.5,1891.25,67.11,0,201,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0611,Starlight Tech Holdings,Enterprise Tier 1,North America - West,Washington,2025-04-13,11,153930.5,13993.68,59.89,2,76,0.1818,0,Champions & High-Value Strategic,4,2,4,424,Low Risk (Champion)
+CUST-0612,Core Energy Holdings,Emerging SMB,North America - South,Tennessee,2025-03-18,16,69228.5,4326.78,58.18,1,102,0.0625,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0613,Global Labs Holdings,Emerging SMB,North America - South,Georgia,2024-09-17,10,28442.5,2844.25,58.3,0,284,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0614,Vertex Analytics Inc.,Enterprise Tier 1,North America - West,Oregon,2025-03-27,17,343093.5,20181.97,61.82,0,93,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0615,Nexus Logistics Corp.,Emerging SMB,EMEA - Western Europe,France,2025-02-27,21,115716.0,5510.29,56.82,0,121,0.0,1,Promising & Emerging Mid-Market,2,5,3,253,Medium At-Risk
+CUST-0616,Omni Digital Holdings,Government & Edu,EMEA - Western Europe,Netherlands,2025-06-03,14,66644.5,4760.32,57.82,0,25,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0617,Stratum Energy Inc.,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2025-05-22,11,314995.5,28635.95,54.9,0,37,0.0,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0618,Horizon Digital LLC,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-02-19,14,126203.0,9014.5,60.65,1,129,0.0714,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0619,Cyber Energy Corp.,Emerging SMB,North America - South,Texas,2025-06-26,11,36261.0,3296.45,63.98,0,2,0.0,3,Loyal Core Growth Accounts,5,2,1,521,Stable Active
+CUST-0620,Aegis Logistics Inc.,Emerging SMB,North America - South,North Carolina,2025-04-24,14,205001.0,14642.93,54.88,1,65,0.0714,0,Champions & High-Value Strategic,4,3,4,434,Low Risk (Champion)
+CUST-0621,Starlight Systems Holdings,Enterprise Tier 1,North America - East,Massachusetts,2025-04-22,15,188096.0,12539.73,63.41,0,67,0.0,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0622,Vanguard Digital LLC,Strategic Mid-Market,APAC - Regional,India,2025-03-17,20,157801.0,7890.05,58.07,0,103,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0623,Omni Analytics Corp.,Strategic Mid-Market,North America - West,Washington,2025-06-10,13,148990.0,11460.77,59.45,0,18,0.0,3,Loyal Core Growth Accounts,5,3,4,534,Low Risk (Champion)
+CUST-0624,Nexus Analytics LLC,Strategic Mid-Market,EMEA - Western Europe,France,2025-05-26,16,185056.0,11566.0,60.59,1,33,0.0625,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0625,Infiniti Energy Corp.,Emerging SMB,North America - Midwest,Michigan,2024-12-17,12,57588.0,4799.0,58.33,0,193,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0626,Pinnacle Analytics LLC,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-03-26,18,150181.5,8343.42,61.77,0,94,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0627,Synergy Digital Holdings,Strategic Mid-Market,North America - East,Virginia,2025-03-25,15,113245.0,7549.67,54.61,0,95,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0628,Synergy Labs Corp.,Emerging SMB,North America - West,Washington,2025-05-06,16,49611.0,3100.69,61.72,0,53,0.0,1,Promising & Emerging Mid-Market,4,4,1,441,Stable Active
+CUST-0629,Acro Enterprises Holdings,Enterprise Tier 1,North America - South,Georgia,2025-05-31,16,350975.5,21935.97,63.28,0,28,0.0,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0630,Solstice Networks LLC,Strategic Mid-Market,APAC - Regional,India,2025-05-01,10,91950.5,9195.05,57.36,0,58,0.0,2,At-Risk & Hibernating Accounts,4,1,3,413,Stable Active
+CUST-0631,Core Aerospace Inc.,Emerging SMB,APAC - Regional,Singapore,2025-05-03,11,58985.0,5362.27,62.0,0,56,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0632,Core Energy LLC,Emerging SMB,APAC - Regional,Australia,2025-02-06,15,58207.0,3880.47,60.65,0,142,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0633,Cyber Aerospace LLC,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2024-11-18,15,154068.0,10271.2,60.93,0,222,0.0,1,Promising & Emerging Mid-Market,1,4,4,144,Medium At-Risk
+CUST-0634,Vertex Labs Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-05-23,18,156319.5,8684.42,50.89,0,36,0.0,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0635,Vertex Digital Holdings,Enterprise Tier 1,North America - West,Nevada,2024-11-02,14,299083.0,21363.07,59.21,0,238,0.0,0,Champions & High-Value Strategic,1,3,5,135,Medium At-Risk
+CUST-0636,Vanguard Aerospace LLC,Strategic Mid-Market,North America - Midwest,Michigan,2025-05-20,8,87805.0,10975.62,54.51,1,39,0.125,2,At-Risk & Hibernating Accounts,5,1,3,513,Stable Active
+CUST-0637,Acro Energy Corp.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-03-05,19,134535.0,7080.79,51.59,0,115,0.0,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0638,Acro Networks Inc.,Strategic Mid-Market,North America - East,New York,2024-12-24,11,54853.5,4986.68,63.92,0,186,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0639,Cyber Tech Inc.,Strategic Mid-Market,North America - West,Nevada,2025-06-16,15,175172.0,11678.13,61.47,2,12,0.1333,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0640,Cyber Tech Holdings,Strategic Mid-Market,North America - West,Washington,2025-05-05,16,150172.5,9385.78,61.07,0,54,0.0,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0641,Pinnacle Solutions LLC,Enterprise Tier 1,North America - East,Virginia,2025-02-05,15,324217.5,21614.5,63.82,1,143,0.0667,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0642,Horizon Systems LLC,Strategic Mid-Market,APAC - Regional,Japan,2025-01-11,11,92267.5,8387.95,55.96,0,168,0.0,2,At-Risk & Hibernating Accounts,1,2,3,123,Critical High Risk
+CUST-0643,Nexus Health LLC,Strategic Mid-Market,APAC - Regional,Japan,2024-11-13,17,124294.1,7311.42,53.22,0,227,0.0,1,Promising & Emerging Mid-Market,1,5,3,153,Medium At-Risk
+CUST-0644,Global Networks Inc.,Strategic Mid-Market,APAC - Regional,Singapore,2025-01-26,11,60314.0,5483.09,61.94,0,153,0.0,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0645,Apex Enterprises Holdings,Enterprise Tier 1,North America - East,Massachusetts,2025-02-12,16,245165.0,15322.81,59.55,0,136,0.0,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0646,Solstice Enterprises Holdings,Emerging SMB,North America - East,New York,2024-12-02,12,53455.0,4454.58,58.47,0,208,0.0,2,At-Risk & Hibernating Accounts,1,2,2,122,Critical High Risk
+CUST-0647,Acro Systems Holdings,Strategic Mid-Market,APAC - Regional,Japan,2025-05-14,18,218668.5,12148.25,62.88,0,45,0.0,0,Champions & High-Value Strategic,5,5,5,555,Low Risk (Champion)
+CUST-0648,Pulse Systems Corp.,Emerging SMB,North America - South,Texas,2025-03-02,13,109873.0,8451.77,63.6,1,118,0.0769,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0649,Quantum Systems LLC,Emerging SMB,North America - Midwest,Michigan,2025-03-27,17,52128.5,3066.38,61.6,0,93,0.0,1,Promising & Emerging Mid-Market,3,5,2,352,Medium At-Risk
+CUST-0650,Synergy Health Corp.,Strategic Mid-Market,APAC - Regional,Japan,2025-05-08,21,130012.5,6191.07,62.84,1,51,0.0476,1,Promising & Emerging Mid-Market,4,5,4,454,Low Risk (Champion)
+CUST-0651,Vertex Energy Inc.,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-06-05,7,312735.0,44676.43,57.68,0,23,0.0,3,Loyal Core Growth Accounts,5,1,5,515,Low Risk (Champion)
+CUST-0652,Cyber Financial Corp.,Strategic Mid-Market,APAC - Regional,Japan,2025-06-01,16,238047.5,14877.97,58.9,0,27,0.0,3,Loyal Core Growth Accounts,5,4,5,545,Low Risk (Champion)
+CUST-0653,Global Analytics Holdings,Strategic Mid-Market,North America - West,California,2024-12-07,8,99354.0,12419.25,41.27,0,203,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0654,Quantum Solutions Inc.,Emerging SMB,EMEA - Western Europe,Netherlands,2025-02-27,10,49948.0,4994.8,57.03,1,121,0.1,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0655,Starlight Health LLC,Strategic Mid-Market,North America - West,Washington,2025-05-08,16,121360.5,7585.03,57.77,1,51,0.0625,3,Loyal Core Growth Accounts,4,4,3,443,Stable Active
+CUST-0656,Horizon Networks Inc.,Enterprise Tier 1,North America - West,Arizona,2025-03-24,18,215314.5,11961.92,63.19,0,96,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0657,Infiniti Analytics LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-05-14,9,107184.0,11909.33,62.93,0,45,0.0,2,At-Risk & Hibernating Accounts,5,1,3,513,Stable Active
+CUST-0658,Pinnacle Enterprises Corp.,Strategic Mid-Market,APAC - Regional,India,2025-04-12,13,125324.0,9640.31,60.3,0,77,0.0,1,Promising & Emerging Mid-Market,3,3,3,333,Medium At-Risk
+CUST-0659,Pinnacle Networks Inc.,Emerging SMB,North America - West,Nevada,2025-04-23,9,15691.5,1743.5,62.77,0,66,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0660,Core Systems Corp.,Strategic Mid-Market,North America - South,Texas,2025-03-23,14,74472.0,5319.43,64.54,0,97,0.0,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0661,Titan Tech LLC,Strategic Mid-Market,North America - Midwest,Ohio,2025-01-19,10,53053.5,5305.35,60.49,1,160,0.1,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0662,Core Analytics Holdings,Government & Edu,North America - Midwest,Indiana,2025-01-09,13,67465.5,5189.65,60.98,0,170,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0663,Omni Digital Holdings,Emerging SMB,North America - East,New York,2025-03-28,17,1137641.0,66920.06,56.85,0,92,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0664,Solstice Systems Inc.,Strategic Mid-Market,North America - Midwest,Ohio,2025-03-23,13,76100.0,5853.85,61.38,2,97,0.1538,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0665,Nexus Tech Holdings,Enterprise Tier 1,EMEA - Western Europe,France,2025-06-07,18,248128.5,13784.92,62.96,0,21,0.0,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0666,Titan Digital Holdings,Enterprise Tier 1,North America - South,Tennessee,2025-05-26,17,287064.5,16886.15,61.16,1,33,0.0588,3,Loyal Core Growth Accounts,5,5,5,555,Low Risk (Champion)
+CUST-0667,Vertex Networks Corp.,Strategic Mid-Market,North America - Midwest,Illinois,2024-11-09,10,101566.0,10156.6,58.45,0,231,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0668,Pinnacle Systems Corp.,Enterprise Tier 1,North America - West,Arizona,2025-04-18,10,182252.5,18225.25,64.15,0,71,0.0,2,At-Risk & Hibernating Accounts,4,1,4,414,Low Risk (Champion)
+CUST-0669,Acro Health Inc.,Enterprise Tier 1,North America - Midwest,Minnesota,2025-04-10,12,328860.0,27405.0,54.84,2,79,0.1667,0,Champions & High-Value Strategic,3,2,5,325,Medium At-Risk
+CUST-0670,Aegis Tech Corp.,Strategic Mid-Market,North America - East,Pennsylvania,2025-04-07,15,444867.0,29657.8,65.23,1,82,0.0667,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0671,Quantum Aerospace Inc.,Enterprise Tier 1,North America - Midwest,Ohio,2025-03-06,12,340835.0,28402.92,57.6,0,114,0.0,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0672,Quantum Tech Corp.,Emerging SMB,APAC - Regional,Singapore,2024-08-20,11,29656.0,2696.0,61.95,1,312,0.0909,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0673,Omni Aerospace LLC,Enterprise Tier 1,EMEA - Western Europe,Switzerland,2025-05-12,15,162767.0,10851.13,60.67,1,47,0.0667,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0674,Horizon Solutions LLC,Strategic Mid-Market,North America - West,Oregon,2024-12-19,16,125114.5,7819.66,60.15,0,191,0.0,1,Promising & Emerging Mid-Market,1,4,3,143,Medium At-Risk
+CUST-0675,Quantum Digital Inc.,Strategic Mid-Market,North America - Midwest,Minnesota,2024-10-09,14,127991.0,9142.21,61.08,0,262,0.0,1,Promising & Emerging Mid-Market,1,3,4,134,Medium At-Risk
+CUST-0676,Horizon Energy Inc.,Government & Edu,North America - Midwest,Indiana,2025-04-05,15,79747.5,5316.5,59.7,0,84,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0677,Vertex Aerospace Holdings,Enterprise Tier 1,EMEA - Western Europe,France,2025-04-28,15,333940.0,22262.67,61.73,0,61,0.0,0,Champions & High-Value Strategic,4,4,5,445,Low Risk (Champion)
+CUST-0678,Nexus Aerospace Corp.,Strategic Mid-Market,North America - Midwest,Ohio,2025-03-15,17,95006.0,5588.59,60.11,0,105,0.0,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0679,Horizon Digital Inc.,Government & Edu,EMEA - Western Europe,United Kingdom,2025-03-12,17,63071.5,3710.09,59.96,0,108,0.0,1,Promising & Emerging Mid-Market,3,5,2,352,Medium At-Risk
+CUST-0680,Aegis Labs Inc.,Emerging SMB,North America - East,New York,2025-01-10,14,41626.0,2973.29,61.87,1,169,0.0714,1,Promising & Emerging Mid-Market,1,3,1,131,Medium At-Risk
+CUST-0681,Aegis Tech Holdings,Emerging SMB,North America - Midwest,Minnesota,2025-05-05,12,24879.0,2073.25,62.35,1,54,0.0833,2,At-Risk & Hibernating Accounts,4,2,1,421,Stable Active
+CUST-0682,Synergy Solutions Inc.,Strategic Mid-Market,EMEA - Western Europe,Netherlands,2025-04-29,18,143275.0,7959.72,61.47,0,60,0.0,1,Promising & Emerging Mid-Market,4,5,4,454,Low Risk (Champion)
+CUST-0683,Aegis Financial Corp.,Enterprise Tier 1,North America - South,North Carolina,2025-04-17,20,250906.5,12545.32,57.61,0,72,0.0,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0684,Horizon Systems LLC,Emerging SMB,North America - East,Florida,2025-03-03,14,59959.5,4282.82,62.79,0,117,0.0,1,Promising & Emerging Mid-Market,2,3,2,232,Medium At-Risk
+CUST-0685,Nexus Solutions Corp.,Government & Edu,EMEA - Western Europe,United Kingdom,2025-03-05,11,64662.5,5878.41,56.63,0,115,0.0,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0686,Core Systems Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-05-02,18,128953.0,7164.06,65.06,0,57,0.0,1,Promising & Emerging Mid-Market,4,5,4,454,Low Risk (Champion)
+CUST-0687,Acro Systems Holdings,Strategic Mid-Market,North America - East,Virginia,2024-12-26,4,51420.0,12855.0,55.58,0,184,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0688,Vanguard Logistics LLC,Strategic Mid-Market,APAC - Regional,Japan,2025-05-31,14,130864.5,9347.46,65.47,0,28,0.0,3,Loyal Core Growth Accounts,5,3,4,534,Low Risk (Champion)
+CUST-0689,Cyber Financial Holdings,Emerging SMB,North America - West,Arizona,2025-01-28,13,26377.0,2029.0,64.55,0,151,0.0,2,At-Risk & Hibernating Accounts,2,3,1,231,Medium At-Risk
+CUST-0690,Aegis Solutions Inc.,Enterprise Tier 1,North America - South,Texas,2025-05-12,21,735030.0,35001.43,63.16,3,47,0.1429,0,Champions & High-Value Strategic,5,5,5,555,Low Risk (Champion)
+CUST-0691,Aegis Energy LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-01-06,12,622201.0,51850.08,55.89,1,173,0.0833,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0692,Acro Tech Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-02-19,6,85220.0,14203.33,19.36,1,129,0.1667,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0693,Quantum Enterprises Corp.,Strategic Mid-Market,North America - South,Tennessee,2025-04-15,11,55947.5,5086.14,62.61,0,74,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0694,Nexus Solutions LLC,Strategic Mid-Market,North America - East,New York,2025-02-03,15,118573.5,7904.9,64.75,0,145,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0695,Aegis Energy Holdings,Enterprise Tier 1,APAC - Regional,Australia,2025-05-14,16,327927.5,20495.47,63.69,0,45,0.0,0,Champions & High-Value Strategic,5,4,5,545,Low Risk (Champion)
+CUST-0696,Cyber Labs Inc.,Emerging SMB,EMEA - Western Europe,United Kingdom,2025-04-09,24,125285.0,5220.21,55.61,1,80,0.0417,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0697,Titan Solutions Holdings,Strategic Mid-Market,North America - East,Florida,2025-04-20,9,163100.0,18122.22,59.26,0,69,0.0,2,At-Risk & Hibernating Accounts,4,1,4,414,Low Risk (Champion)
+CUST-0698,Solstice Tech Holdings,Strategic Mid-Market,APAC - Regional,Japan,2025-01-14,12,108271.0,9022.58,52.24,1,165,0.0833,1,Promising & Emerging Mid-Market,1,2,3,123,Critical High Risk
+CUST-0699,Aegis Logistics LLC,Enterprise Tier 1,North America - Midwest,Minnesota,2025-04-03,12,208044.0,17337.0,60.91,0,86,0.0,0,Champions & High-Value Strategic,3,2,4,324,Medium At-Risk
+CUST-0700,Acro Financial Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-06-01,16,90347.5,5646.72,62.86,1,27,0.0625,3,Loyal Core Growth Accounts,5,4,3,543,Stable Active
+CUST-0701,Vertex Enterprises Corp.,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-03-31,20,239332.5,11966.62,64.4,2,89,0.1,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0702,Synergy Systems Corp.,Enterprise Tier 1,North America - South,Tennessee,2025-03-27,15,306099.0,20406.6,58.62,0,93,0.0,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0703,Acro Health Inc.,Strategic Mid-Market,EMEA - Western Europe,France,2025-04-06,18,282840.0,15713.33,61.36,4,83,0.2222,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0704,Vanguard Aerospace LLC,Enterprise Tier 1,North America - South,North Carolina,2025-01-12,18,333249.0,18513.83,58.21,0,167,0.0,0,Champions & High-Value Strategic,1,5,5,155,Medium At-Risk
+CUST-0705,Quantum Systems Corp.,Enterprise Tier 1,APAC - Regional,Australia,2025-04-16,17,433474.0,25498.47,57.3,1,73,0.0588,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0706,Infiniti Tech Corp.,Government & Edu,North America - Midwest,Ohio,2025-05-25,14,79209.5,5657.82,58.54,0,34,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0707,Vertex Labs Corp.,Strategic Mid-Market,North America - Midwest,Minnesota,2025-03-23,16,155134.0,9695.88,62.53,2,97,0.125,0,Champions & High-Value Strategic,3,4,4,344,Medium At-Risk
+CUST-0708,Titan Tech LLC,Emerging SMB,North America - Midwest,Ohio,2025-05-21,9,51830.0,5758.89,63.38,0,38,0.0,2,At-Risk & Hibernating Accounts,5,1,2,512,Stable Active
+CUST-0709,Apex Health Holdings,Strategic Mid-Market,EMEA - Western Europe,Switzerland,2024-12-25,6,36657.5,6109.58,57.59,0,185,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0710,Aegis Systems Holdings,Emerging SMB,North America - East,Massachusetts,2025-05-05,18,76106.0,4228.11,62.64,0,54,0.0,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0711,Quantum Tech Inc.,Emerging SMB,North America - West,Washington,2025-02-27,17,39829.1,2342.89,53.25,0,121,0.0,1,Promising & Emerging Mid-Market,2,5,1,251,Medium At-Risk
+CUST-0712,Vanguard Health LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-06-15,21,102465.0,4879.29,58.85,0,13,0.0,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0713,Solstice Analytics LLC,Strategic Mid-Market,North America - East,New York,2025-03-21,9,42734.0,4748.22,66.49,1,99,0.1111,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0714,Vertex Enterprises Holdings,Strategic Mid-Market,North America - West,California,2025-04-04,21,225369.5,10731.88,56.51,0,85,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0715,Acro Systems Inc.,Strategic Mid-Market,North America - South,Texas,2025-04-24,18,190560.5,10586.69,64.0,0,65,0.0,0,Champions & High-Value Strategic,4,5,4,454,Low Risk (Champion)
+CUST-0716,Omni Analytics Holdings,Government & Edu,APAC - Regional,India,2025-04-24,15,51433.0,3428.87,59.91,1,65,0.0667,1,Promising & Emerging Mid-Market,4,4,1,441,Stable Active
+CUST-0717,Pulse Tech Holdings,Emerging SMB,APAC - Regional,India,2024-12-12,11,191720.0,17429.09,67.19,1,198,0.0909,0,Champions & High-Value Strategic,1,2,4,124,Critical High Risk
+CUST-0718,Omni Financial Corp.,Government & Edu,North America - West,Oregon,2025-05-29,10,54046.5,5404.65,55.46,0,30,0.0,3,Loyal Core Growth Accounts,5,1,2,512,Stable Active
+CUST-0719,Horizon Aerospace Corp.,Enterprise Tier 1,North America - East,Florida,2024-11-26,12,173947.5,14495.62,60.76,0,214,0.0,0,Champions & High-Value Strategic,1,2,4,124,Critical High Risk
+CUST-0720,Infiniti Analytics Corp.,Emerging SMB,APAC - Regional,Australia,2025-01-03,16,65825.0,4114.06,59.86,0,176,0.0,1,Promising & Emerging Mid-Market,1,4,2,142,Medium At-Risk
+CUST-0721,Pulse Health Holdings,Government & Edu,North America - East,New York,2024-10-18,9,26166.0,2907.33,58.44,0,253,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0722,Horizon Health Corp.,Enterprise Tier 1,North America - South,Georgia,2025-03-17,13,165938.5,12764.5,39.56,0,103,0.0,0,Champions & High-Value Strategic,3,3,4,334,Medium At-Risk
+CUST-0723,Titan Enterprises Inc.,Enterprise Tier 1,North America - South,North Carolina,2025-06-13,10,204245.0,20424.5,48.21,0,15,0.0,3,Loyal Core Growth Accounts,5,1,4,514,Low Risk (Champion)
+CUST-0724,Pulse Energy Holdings,Emerging SMB,North America - Midwest,Indiana,2025-04-28,16,44584.0,2786.5,54.36,0,61,0.0,1,Promising & Emerging Mid-Market,4,4,1,441,Stable Active
+CUST-0725,Titan Financial Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-05-21,14,199269.0,14233.5,37.82,0,38,0.0,3,Loyal Core Growth Accounts,5,3,4,534,Low Risk (Champion)
+CUST-0726,Apex Financial Corp.,Emerging SMB,North America - East,Virginia,2025-05-19,17,75361.5,4433.03,61.9,1,40,0.0588,3,Loyal Core Growth Accounts,5,5,2,552,Stable Active
+CUST-0727,Nexus Digital Holdings,Enterprise Tier 1,EMEA - Western Europe,France,2025-05-07,14,280449.4,20032.1,48.16,0,52,0.0,0,Champions & High-Value Strategic,4,3,5,435,Low Risk (Champion)
+CUST-0728,Solstice Enterprises Corp.,Emerging SMB,North America - East,Massachusetts,2025-02-11,14,41958.0,2997.0,63.34,0,137,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0729,Aegis Logistics Inc.,Strategic Mid-Market,North America - West,Arizona,2025-05-18,17,193587.0,11387.47,56.97,1,41,0.0588,3,Loyal Core Growth Accounts,5,5,4,554,Low Risk (Champion)
+CUST-0730,Core Financial Corp.,Enterprise Tier 1,North America - West,Washington,2025-01-29,14,325589.5,23256.39,37.8,1,150,0.0714,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0731,Solstice Financial LLC,Enterprise Tier 1,EMEA - Western Europe,United Kingdom,2025-05-10,15,371204.0,24746.93,61.29,0,49,0.0,0,Champions & High-Value Strategic,5,4,5,545,Low Risk (Champion)
+CUST-0732,Starlight Analytics Corp.,Emerging SMB,EMEA - Western Europe,Germany,2024-11-23,8,35320.0,4415.0,52.81,1,217,0.125,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0733,Pulse Energy LLC,Emerging SMB,North America - West,Nevada,2025-02-06,15,84605.5,5640.37,54.93,0,142,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0734,Nexus Systems Inc.,Strategic Mid-Market,North America - West,Arizona,2025-04-28,6,73890.0,12315.0,59.27,0,61,0.0,2,At-Risk & Hibernating Accounts,4,1,2,412,Stable Active
+CUST-0735,Aegis Tech Holdings,Strategic Mid-Market,North America - East,Virginia,2025-04-28,14,122502.5,8750.18,62.26,0,61,0.0,1,Promising & Emerging Mid-Market,4,3,3,433,Stable Active
+CUST-0736,Infiniti Enterprises Corp.,Emerging SMB,North America - Midwest,Ohio,2025-02-26,14,32670.5,2333.61,58.09,0,122,0.0,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0737,Acro Tech Inc.,Strategic Mid-Market,North America - West,Arizona,2025-01-25,10,105458.5,10545.85,43.73,0,154,0.0,2,At-Risk & Hibernating Accounts,2,1,3,213,Critical High Risk
+CUST-0738,Synergy Digital Inc.,Emerging SMB,EMEA - Western Europe,France,2025-03-12,19,299577.5,15767.24,59.05,1,108,0.0526,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0739,Vertex Financial Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2025-04-10,10,89972.0,8997.2,61.22,0,79,0.0,2,At-Risk & Hibernating Accounts,3,1,3,313,Medium At-Risk
+CUST-0740,Acro Logistics LLC,Strategic Mid-Market,North America - West,Washington,2025-06-02,15,119618.5,7974.57,60.46,0,26,0.0,3,Loyal Core Growth Accounts,5,4,3,543,Stable Active
+CUST-0741,Global Digital Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-04-12,16,132055.0,8253.44,59.93,0,77,0.0,1,Promising & Emerging Mid-Market,3,4,4,344,Medium At-Risk
+CUST-0742,Omni Labs LLC,Strategic Mid-Market,North America - West,Arizona,2025-05-19,13,93762.0,7212.46,59.57,0,40,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0743,Omni Health LLC,Emerging SMB,APAC - Regional,Australia,2025-04-13,10,17207.0,1720.7,63.18,0,76,0.0,2,At-Risk & Hibernating Accounts,4,1,1,411,Stable Active
+CUST-0744,Synergy Solutions Inc.,Strategic Mid-Market,APAC - Regional,India,2025-03-16,16,186107.5,11631.72,51.36,2,104,0.125,0,Champions & High-Value Strategic,3,4,4,344,Medium At-Risk
+CUST-0745,Solstice Tech Corp.,Strategic Mid-Market,EMEA - Western Europe,France,2025-04-27,16,209861.0,13116.31,61.44,1,62,0.0625,0,Champions & High-Value Strategic,4,4,4,444,Low Risk (Champion)
+CUST-0746,Infiniti Enterprises Inc.,Emerging SMB,North America - South,Georgia,2025-06-06,14,62390.5,4456.46,59.55,0,22,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0747,Acro Labs Inc.,Strategic Mid-Market,North America - West,Oregon,2025-03-09,15,170859.0,11390.6,65.05,0,111,0.0,0,Champions & High-Value Strategic,2,4,4,244,Medium At-Risk
+CUST-0748,Acro Solutions Inc.,Strategic Mid-Market,APAC - Regional,Australia,2024-10-06,8,64588.0,8073.5,61.67,1,265,0.125,2,At-Risk & Hibernating Accounts,1,1,2,112,Critical High Risk
+CUST-0749,Cyber Tech LLC,Government & Edu,North America - West,Washington,2025-02-25,9,24871.0,2763.44,62.16,0,123,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0750,Vertex Financial LLC,Emerging SMB,North America - East,New York,2025-04-27,14,35218.0,2515.57,62.51,0,62,0.0,1,Promising & Emerging Mid-Market,4,3,1,431,Stable Active
+CUST-0751,Nexus Health Holdings,Enterprise Tier 1,APAC - Regional,India,2025-02-08,22,339327.5,15423.98,60.44,0,140,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0752,Omni Health Holdings,Government & Edu,North America - South,North Carolina,2025-02-23,17,53300.0,3135.29,59.43,2,125,0.1176,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0753,Stratum Health Inc.,Emerging SMB,North America - South,Georgia,2024-12-06,15,44223.5,2948.23,62.71,1,204,0.0667,1,Promising & Emerging Mid-Market,1,4,1,141,Medium At-Risk
+CUST-0754,Omni Aerospace Inc.,Strategic Mid-Market,North America - East,Virginia,2025-02-25,16,78292.5,4893.28,63.07,0,123,0.0,1,Promising & Emerging Mid-Market,2,4,2,242,Medium At-Risk
+CUST-0755,Apex Financial LLC,Enterprise Tier 1,North America - East,New York,2025-06-26,11,64981.5,5907.41,64.52,0,2,0.0,3,Loyal Core Growth Accounts,5,2,2,522,Stable Active
+CUST-0756,Acro Solutions Holdings,Emerging SMB,North America - West,California,2025-05-03,14,50436.0,3602.57,63.99,0,56,0.0,1,Promising & Emerging Mid-Market,4,3,1,431,Stable Active
+CUST-0757,Stratum Systems LLC,Emerging SMB,EMEA - Western Europe,Switzerland,2024-10-18,18,71640.5,3980.03,58.9,0,253,0.0,1,Promising & Emerging Mid-Market,1,5,2,152,Medium At-Risk
+CUST-0758,Pulse Labs Inc.,Strategic Mid-Market,North America - South,Georgia,2025-06-07,16,182291.5,11393.22,63.23,1,21,0.0625,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0759,Infiniti Health Corp.,Emerging SMB,North America - East,New York,2025-01-14,17,62485.0,3675.59,62.32,1,165,0.0588,1,Promising & Emerging Mid-Market,1,5,2,152,Medium At-Risk
+CUST-0760,Acro Enterprises Corp.,Emerging SMB,North America - South,North Carolina,2025-03-19,14,60795.5,4342.54,59.12,1,101,0.0714,1,Promising & Emerging Mid-Market,3,3,2,332,Medium At-Risk
+CUST-0761,Pinnacle Logistics Corp.,Enterprise Tier 1,North America - East,New York,2025-03-03,19,445714.0,23458.63,59.72,1,117,0.0526,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0762,Core Analytics Holdings,Strategic Mid-Market,North America - West,California,2025-04-17,11,59151.0,5377.36,64.45,0,72,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0763,Starlight Tech Holdings,Strategic Mid-Market,North America - East,Virginia,2025-03-22,12,102304.0,8525.33,57.7,0,98,0.0,1,Promising & Emerging Mid-Market,3,2,3,323,Medium At-Risk
+CUST-0764,Infiniti Aerospace Corp.,Emerging SMB,North America - East,New York,2025-05-16,8,28017.0,3502.12,63.13,1,43,0.125,2,At-Risk & Hibernating Accounts,5,1,1,511,Stable Active
+CUST-0765,Vanguard Solutions LLC,Enterprise Tier 1,North America - East,Pennsylvania,2025-04-25,23,303530.0,13196.96,61.96,2,64,0.087,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0766,Quantum Logistics Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-06-05,16,116982.5,7311.41,63.21,1,23,0.0625,3,Loyal Core Growth Accounts,5,4,3,543,Stable Active
+CUST-0767,Horizon Systems Holdings,Emerging SMB,North America - West,Oregon,2025-03-26,15,75820.0,5054.67,60.72,0,94,0.0,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0768,Core Financial Corp.,Emerging SMB,North America - South,Texas,2024-09-16,13,73437.5,5649.04,60.7,0,285,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0769,Horizon Aerospace Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2024-11-20,10,95172.5,9517.25,63.01,1,220,0.1,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0770,Horizon Analytics Inc.,Emerging SMB,North America - West,California,2025-05-05,16,31615.5,1975.97,64.31,0,54,0.0,1,Promising & Emerging Mid-Market,4,4,1,441,Stable Active
+CUST-0771,Vertex Networks LLC,Enterprise Tier 1,EMEA - Western Europe,Netherlands,2025-05-12,15,429114.0,28607.6,60.82,0,47,0.0,0,Champions & High-Value Strategic,5,4,5,545,Low Risk (Champion)
+CUST-0772,Solstice Enterprises Inc.,Emerging SMB,North America - South,Tennessee,2024-12-06,14,53348.5,3810.61,64.06,0,204,0.0,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0773,Stratum Networks Holdings,Enterprise Tier 1,EMEA - Western Europe,Germany,2024-12-10,11,333614.0,30328.55,53.67,0,200,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0774,Pulse Logistics Inc.,Strategic Mid-Market,North America - South,Texas,2024-11-26,10,82329.0,8232.9,62.03,0,214,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0775,Titan Analytics Corp.,Emerging SMB,North America - East,Pennsylvania,2025-02-01,7,25062.5,3580.36,61.46,0,147,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0776,Omni Solutions Corp.,Enterprise Tier 1,North America - West,Washington,2025-03-31,19,563783.9,29672.84,53.97,0,89,0.0,0,Champions & High-Value Strategic,3,5,5,355,Medium At-Risk
+CUST-0777,Nexus Health Inc.,Strategic Mid-Market,APAC - Regional,India,2025-03-27,15,124520.5,8301.37,48.73,0,93,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0778,Vanguard Networks Corp.,Emerging SMB,EMEA - Western Europe,France,2024-10-28,12,47672.5,3972.71,60.91,0,243,0.0,2,At-Risk & Hibernating Accounts,1,2,1,121,Critical High Risk
+CUST-0779,Acro Labs Inc.,Emerging SMB,North America - East,Pennsylvania,2025-04-20,17,53678.5,3157.56,64.52,1,69,0.0588,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0780,Stratum Health LLC,Emerging SMB,North America - Midwest,Indiana,2024-10-12,14,36977.0,2641.21,60.91,0,259,0.0,1,Promising & Emerging Mid-Market,1,3,1,131,Medium At-Risk
+CUST-0781,Cyber Tech Holdings,Emerging SMB,North America - East,Pennsylvania,2025-05-31,18,91413.5,5078.53,54.76,0,28,0.0,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
+CUST-0782,Synergy Solutions Inc.,Strategic Mid-Market,North America - East,Florida,2025-05-16,24,184846.0,7701.92,62.4,0,43,0.0,0,Champions & High-Value Strategic,5,5,4,554,Low Risk (Champion)
+CUST-0783,Quantum Digital LLC,Strategic Mid-Market,EMEA - Western Europe,France,2024-12-12,9,247726.0,27525.11,57.01,0,198,0.0,2,At-Risk & Hibernating Accounts,1,1,5,115,Critical High Risk
+CUST-0784,Global Logistics Holdings,Strategic Mid-Market,APAC - Regional,India,2025-02-08,12,71865.5,5988.79,60.56,0,140,0.0,2,At-Risk & Hibernating Accounts,2,2,2,222,Critical High Risk
+CUST-0785,Solstice Analytics Holdings,Enterprise Tier 1,North America - East,Massachusetts,2025-03-06,18,655169.5,36398.31,59.77,0,114,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0786,Horizon Health Corp.,Government & Edu,EMEA - Western Europe,Switzerland,2025-04-28,16,82984.5,5186.53,58.36,0,61,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0787,Core Tech Holdings,Strategic Mid-Market,North America - Midwest,Ohio,2025-06-05,14,77874.0,5562.43,64.1,0,23,0.0,3,Loyal Core Growth Accounts,5,3,2,532,Stable Active
+CUST-0788,Nexus Labs Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-05-17,13,108581.5,8352.42,60.14,0,42,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0789,Apex Financial LLC,Strategic Mid-Market,North America - Midwest,Michigan,2025-02-18,12,122343.0,10195.25,61.07,0,130,0.0,1,Promising & Emerging Mid-Market,2,2,3,223,Critical High Risk
+CUST-0790,Pulse Labs Inc.,Government & Edu,North America - West,Washington,2025-02-19,16,85817.1,5363.57,41.62,0,129,0.0,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0791,Pinnacle Labs Holdings,Enterprise Tier 1,North America - Midwest,Michigan,2025-02-06,18,374719.5,20817.75,62.31,0,142,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0792,Global Analytics Inc.,Strategic Mid-Market,North America - West,Nevada,2025-01-05,19,159936.0,8417.68,45.95,0,174,0.0,0,Champions & High-Value Strategic,1,5,4,154,Medium At-Risk
+CUST-0793,Vanguard Health Holdings,Strategic Mid-Market,EMEA - Western Europe,France,2025-02-11,16,78580.0,4911.25,64.67,1,137,0.0625,1,Promising & Emerging Mid-Market,2,4,3,243,Medium At-Risk
+CUST-0794,Nexus Energy Corp.,Emerging SMB,North America - East,Virginia,2025-03-20,17,70277.0,4133.94,58.61,0,100,0.0,1,Promising & Emerging Mid-Market,3,5,2,352,Medium At-Risk
+CUST-0795,Titan Health Corp.,Enterprise Tier 1,EMEA - Western Europe,Switzerland,2025-04-08,19,190802.5,10042.24,62.52,0,81,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0796,Apex Solutions Corp.,Emerging SMB,North America - West,California,2024-07-12,8,37264.5,4658.06,58.67,0,351,0.0,2,At-Risk & Hibernating Accounts,1,1,1,111,Critical High Risk
+CUST-0797,Aegis Tech Holdings,Government & Edu,North America - East,Virginia,2025-04-17,17,70652.0,4156.0,60.39,1,72,0.0588,1,Promising & Emerging Mid-Market,4,5,2,452,Stable Active
+CUST-0798,Vanguard Logistics LLC,Strategic Mid-Market,North America - South,Tennessee,2025-03-17,17,157597.0,9270.41,62.54,0,103,0.0,0,Champions & High-Value Strategic,3,5,4,354,Medium At-Risk
+CUST-0799,Quantum Networks Inc.,Emerging SMB,North America - West,Oregon,2025-05-12,22,74312.0,3377.82,66.32,0,47,0.0,1,Promising & Emerging Mid-Market,5,5,2,552,Stable Active
+CUST-0800,Pulse Analytics Holdings,Government & Edu,North America - West,Nevada,2025-04-06,8,20511.5,2563.94,63.38,0,83,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0801,Solstice Energy LLC,Emerging SMB,North America - Midwest,Ohio,2025-03-08,16,46896.0,2931.0,60.53,0,112,0.0,1,Promising & Emerging Mid-Market,2,4,1,241,Medium At-Risk
+CUST-0802,Horizon Labs Inc.,Enterprise Tier 1,North America - Midwest,Illinois,2025-04-07,16,192547.0,12034.19,59.01,0,82,0.0,0,Champions & High-Value Strategic,3,4,4,344,Medium At-Risk
+CUST-0803,Core Tech Corp.,Strategic Mid-Market,EMEA - Western Europe,Germany,2025-06-03,13,80268.0,6174.46,60.77,0,25,0.0,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0804,Aegis Networks Corp.,Emerging SMB,APAC - Regional,Japan,2025-03-03,14,555057.5,39646.96,49.0,1,117,0.0714,0,Champions & High-Value Strategic,2,3,5,235,Medium At-Risk
+CUST-0805,Horizon Networks Holdings,Strategic Mid-Market,EMEA - Western Europe,United Kingdom,2024-11-08,14,138744.0,9910.29,59.13,0,232,0.0,1,Promising & Emerging Mid-Market,1,3,4,134,Medium At-Risk
+CUST-0806,Apex Aerospace Corp.,Emerging SMB,APAC - Regional,Japan,2025-03-16,14,26923.5,1923.11,62.66,0,104,0.0,1,Promising & Emerging Mid-Market,3,3,1,331,Medium At-Risk
+CUST-0807,Infiniti Digital Inc.,Government & Edu,North America - West,Oregon,2025-03-04,21,73505.0,3500.24,61.15,0,116,0.0,1,Promising & Emerging Mid-Market,2,5,2,252,Medium At-Risk
+CUST-0808,Infiniti Digital LLC,Government & Edu,APAC - Regional,Australia,2025-03-18,7,21908.5,3129.79,59.14,0,102,0.0,2,At-Risk & Hibernating Accounts,3,1,1,311,Medium At-Risk
+CUST-0809,Global Health LLC,Strategic Mid-Market,North America - South,North Carolina,2025-02-01,22,266852.0,12129.64,58.92,1,147,0.0455,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0810,Vanguard Aerospace LLC,Enterprise Tier 1,APAC - Regional,India,2025-02-15,12,567180.5,47265.04,60.38,1,133,0.0833,0,Champions & High-Value Strategic,2,2,5,225,Critical High Risk
+CUST-0811,Solstice Systems Inc.,Government & Edu,EMEA - Western Europe,France,2025-01-23,9,61203.5,6800.39,59.6,0,156,0.0,2,At-Risk & Hibernating Accounts,2,1,2,212,Critical High Risk
+CUST-0812,Stratum Networks LLC,Emerging SMB,North America - Midwest,Illinois,2025-06-02,14,48172.0,3440.86,60.67,0,26,0.0,3,Loyal Core Growth Accounts,5,3,1,531,Stable Active
+CUST-0813,Pulse Systems LLC,Enterprise Tier 1,North America - Midwest,Michigan,2025-01-15,11,214078.0,19461.64,63.76,0,164,0.0,0,Champions & High-Value Strategic,1,2,4,124,Critical High Risk
+CUST-0814,Horizon Logistics LLC,Government & Edu,North America - West,Washington,2025-03-02,14,50356.0,3596.86,62.61,1,118,0.0714,1,Promising & Emerging Mid-Market,2,3,1,231,Medium At-Risk
+CUST-0815,Titan Digital Corp.,Emerging SMB,North America - East,Florida,2025-03-05,8,13592.5,1699.06,65.48,1,115,0.125,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0816,Core Networks LLC,Strategic Mid-Market,APAC - Regional,Japan,2025-02-15,14,86459.0,6175.64,60.16,0,133,0.0,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0817,Apex Networks Holdings,Strategic Mid-Market,North America - Midwest,Michigan,2025-03-02,17,228492.5,13440.74,57.9,0,118,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0818,Global Health Holdings,Strategic Mid-Market,APAC - Regional,Singapore,2025-04-07,15,75017.5,5001.17,59.61,1,82,0.0667,1,Promising & Emerging Mid-Market,3,4,2,342,Medium At-Risk
+CUST-0819,Solstice Labs Corp.,Enterprise Tier 1,North America - Midwest,Ohio,2025-02-07,16,342062.5,21378.91,63.09,0,141,0.0,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0820,Stratum Networks Holdings,Strategic Mid-Market,APAC - Regional,Australia,2025-05-01,11,62249.4,5659.04,45.56,0,58,0.0,2,At-Risk & Hibernating Accounts,4,2,2,422,Stable Active
+CUST-0821,Titan Logistics Corp.,Emerging SMB,APAC - Regional,Japan,2025-04-27,15,64046.0,4269.73,61.77,0,62,0.0,1,Promising & Emerging Mid-Market,4,4,2,442,Stable Active
+CUST-0822,Pinnacle Systems Holdings,Enterprise Tier 1,North America - West,Oregon,2025-03-01,18,424157.5,23564.31,59.07,0,119,0.0,0,Champions & High-Value Strategic,2,5,5,255,Medium At-Risk
+CUST-0823,Stratum Digital Corp.,Strategic Mid-Market,APAC - Regional,Australia,2025-05-02,15,117407.0,7827.13,63.11,0,57,0.0,1,Promising & Emerging Mid-Market,4,4,3,443,Stable Active
+CUST-0824,Vertex Enterprises LLC,Strategic Mid-Market,North America - West,Oregon,2025-03-13,16,117250.0,7328.12,56.77,0,107,0.0,1,Promising & Emerging Mid-Market,3,4,3,343,Medium At-Risk
+CUST-0825,Global Digital LLC,Strategic Mid-Market,North America - Midwest,Michigan,2025-06-08,15,83111.5,5540.77,57.28,0,20,0.0,3,Loyal Core Growth Accounts,5,4,3,543,Stable Active
+CUST-0826,Solstice Logistics Holdings,Government & Edu,North America - East,Pennsylvania,2025-05-31,16,66090.0,4130.62,62.72,0,28,0.0,3,Loyal Core Growth Accounts,5,4,2,542,Stable Active
+CUST-0827,Nexus Networks Inc.,Strategic Mid-Market,North America - South,Georgia,2025-04-25,16,132406.5,8275.41,61.22,0,64,0.0,1,Promising & Emerging Mid-Market,4,4,4,444,Low Risk (Champion)
+CUST-0828,Titan Systems Holdings,Strategic Mid-Market,EMEA - Western Europe,France,2025-01-29,19,151604.0,7979.16,60.79,0,150,0.0,1,Promising & Emerging Mid-Market,2,5,4,254,Medium At-Risk
+CUST-0829,Global Tech Corp.,Emerging SMB,North America - West,Washington,2025-01-09,16,49351.0,3084.44,63.08,0,170,0.0,1,Promising & Emerging Mid-Market,1,4,1,141,Medium At-Risk
+CUST-0830,Acro Health Holdings,Strategic Mid-Market,North America - West,Oregon,2025-03-23,12,58102.5,4841.88,62.16,0,97,0.0,2,At-Risk & Hibernating Accounts,3,2,2,322,Medium At-Risk
+CUST-0831,Omni Digital Inc.,Strategic Mid-Market,North America - South,North Carolina,2025-02-16,15,195793.5,13052.9,60.11,1,132,0.0667,0,Champions & High-Value Strategic,2,4,4,244,Medium At-Risk
+CUST-0832,Omni Financial Inc.,Strategic Mid-Market,North America - East,Pennsylvania,2025-03-25,17,99742.5,5867.21,61.89,0,95,0.0,1,Promising & Emerging Mid-Market,3,5,3,353,Medium At-Risk
+CUST-0833,Horizon Enterprises Corp.,Enterprise Tier 1,EMEA - Western Europe,Germany,2025-03-17,9,151486.5,16831.83,61.08,0,103,0.0,2,At-Risk & Hibernating Accounts,3,1,4,314,Medium At-Risk
+CUST-0834,Pulse Digital Inc.,Enterprise Tier 1,North America - West,Arizona,2025-02-23,16,383680.5,23980.03,60.78,2,125,0.125,0,Champions & High-Value Strategic,2,4,5,245,Medium At-Risk
+CUST-0835,Global Networks Holdings,Strategic Mid-Market,North America - South,Tennessee,2025-04-21,12,142579.5,11881.62,55.28,0,68,0.0,1,Promising & Emerging Mid-Market,4,2,4,424,Low Risk (Champion)
+CUST-0836,Pulse Health Inc.,Strategic Mid-Market,North America - East,Florida,2025-04-10,12,146413.0,12201.08,51.47,0,79,0.0,1,Promising & Emerging Mid-Market,3,2,4,324,Medium At-Risk
+CUST-0837,Vanguard Labs LLC,Government & Edu,North America - East,Virginia,2025-03-12,15,908517.5,60567.83,56.65,0,108,0.0,0,Champions & High-Value Strategic,3,4,5,345,Medium At-Risk
+CUST-0838,Titan Enterprises Inc.,Strategic Mid-Market,APAC - Regional,Singapore,2025-04-01,14,408922.5,29208.75,61.97,0,88,0.0,0,Champions & High-Value Strategic,3,3,5,335,Medium At-Risk
+CUST-0839,Aegis Enterprises LLC,Strategic Mid-Market,North America - Midwest,Ohio,2025-02-08,10,43083.0,4308.3,66.88,0,140,0.0,2,At-Risk & Hibernating Accounts,2,1,1,211,Critical High Risk
+CUST-0840,Quantum Health LLC,Emerging SMB,North America - West,California,2025-06-21,14,85843.0,6131.64,61.01,2,7,0.1429,3,Loyal Core Growth Accounts,5,3,3,533,Stable Active
+CUST-0841,Nexus Logistics LLC,Enterprise Tier 1,North America - South,North Carolina,2025-05-14,11,238606.5,21691.5,62.56,0,45,0.0,3,Loyal Core Growth Accounts,5,2,5,525,Low Risk (Champion)
+CUST-0842,Global Networks Corp.,Emerging SMB,North America - Midwest,Minnesota,2025-04-14,9,224022.5,24891.39,62.57,2,75,0.2222,2,At-Risk & Hibernating Accounts,4,1,5,415,Low Risk (Champion)
+CUST-0843,Starlight Digital Corp.,Enterprise Tier 1,North America - West,Nevada,2024-12-11,12,232267.0,19355.58,58.32,0,199,0.0,0,Champions & High-Value Strategic,1,2,5,125,Critical High Risk
+CUST-0844,Apex Enterprises Corp.,Government & Edu,APAC - Regional,Japan,2024-12-20,13,57165.0,4397.31,56.26,1,190,0.0769,1,Promising & Emerging Mid-Market,1,3,2,132,Medium At-Risk
+CUST-0845,Vanguard Labs Inc.,Enterprise Tier 1,EMEA - Western Europe,Switzerland,2025-04-19,17,808807.5,47576.91,60.68,3,70,0.1765,0,Champions & High-Value Strategic,4,5,5,455,Low Risk (Champion)
+CUST-0846,Omni Systems LLC,Strategic Mid-Market,APAC - Regional,Singapore,2025-05-19,16,197090.5,12318.16,55.05,0,40,0.0,3,Loyal Core Growth Accounts,5,4,4,544,Low Risk (Champion)
+CUST-0847,Core Networks LLC,Enterprise Tier 1,EMEA - Western Europe,Switzerland,2024-11-03,10,100060.0,10006.0,68.78,0,237,0.0,2,At-Risk & Hibernating Accounts,1,1,3,113,Critical High Risk
+CUST-0848,Nexus Analytics Inc.,Government & Edu,APAC - Regional,Singapore,2025-02-07,14,83538.0,5967.0,62.44,2,141,0.1429,1,Promising & Emerging Mid-Market,2,3,3,233,Medium At-Risk
+CUST-0849,Apex Tech Inc.,Strategic Mid-Market,North America - South,Tennessee,2025-03-23,11,179578.5,16325.32,61.31,0,97,0.0,0,Champions & High-Value Strategic,3,2,4,324,Medium At-Risk
+CUST-0850,Core Systems LLC,Strategic Mid-Market,North America - South,Georgia,2025-05-11,17,109604.0,6447.29,58.73,1,48,0.0588,3,Loyal Core Growth Accounts,5,5,3,553,Stable Active
